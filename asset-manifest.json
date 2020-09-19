@@ -1,19 +1,20 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.34c989ee.chunk.css",
-    "main.js": "/portfolio/static/js/main.9c6b98b7.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.9c6b98b7.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.659f1177.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.659f1177.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.6a49aad2.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.6a49aad2.js.map",
-    "static/js/2.f2462656.chunk.js": "/portfolio/static/js/2.f2462656.chunk.js",
-    "static/js/2.f2462656.chunk.js.map": "/portfolio/static/js/2.f2462656.chunk.js.map",
+    "static/js/2.db4e0489.chunk.js": "/portfolio/static/js/2.db4e0489.chunk.js",
+    "static/js/2.db4e0489.chunk.js.map": "/portfolio/static/js/2.db4e0489.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.a5b4d3690d44484a1eacb370b2bdf1f5.js": "/portfolio/precache-manifest.a5b4d3690d44484a1eacb370b2bdf1f5.js",
+    "precache-manifest.b50f5155c1055ad1f35b04a9d12ff6da.js": "/portfolio/precache-manifest.b50f5155c1055ad1f35b04a9d12ff6da.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/main.34c989ee.chunk.css.map": "/portfolio/static/css/main.34c989ee.chunk.css.map",
-    "static/js/2.f2462656.chunk.js.LICENSE.txt": "/portfolio/static/js/2.f2462656.chunk.js.LICENSE.txt",
+    "static/js/2.db4e0489.chunk.js.LICENSE.txt": "/portfolio/static/js/2.db4e0489.chunk.js.LICENSE.txt",
     "static/media/index.css": "/portfolio/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/address_image.svg": "/portfolio/static/media/address_image.3b021f8f.svg",
+    "static/media/android.svg": "/portfolio/static/media/android.e5c4ba08.svg",
     "static/media/animated_ashutosh.png": "/portfolio/static/media/animated_ashutosh.6c8410d0.png",
     "static/media/animated_logo.svg": "/portfolio/static/media/animated_logo.a633be2f.svg",
     "static/media/aust.png": "/portfolio/static/media/aust.a69e1b34.png",
@@ -56,8 +57,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.6a49aad2.js",
-    "static/js/2.f2462656.chunk.js",
+    "static/js/2.db4e0489.chunk.js",
     "static/css/main.34c989ee.chunk.css",
-    "static/js/main.9c6b98b7.chunk.js"
+    "static/js/main.659f1177.chunk.js"
   ]
 }
