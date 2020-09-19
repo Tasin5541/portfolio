@@ -198,7 +198,7 @@ const skills = {
     },
     {
       title: "Android App",
-      fileName: "CloudInfraImg",
+      fileName: "AndroidImg",
       skills: [
         "⚡ Experience working on multiple cloud platforms",
         "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
@@ -214,17 +214,17 @@ const skills = {
           },
         },
         {
-          skillName: "AWS",
-          fontAwesomeClassname: "simple-icons:amazonaws",
+          skillName: "Android Studio",
+          fontAwesomeClassname: "mdi:android-studio",
           style: {
-            color: "#FF9900",
+            color: "#3DDC84",
           },
         },
         {
-          skillName: "Azure",
-          fontAwesomeClassname: "simple-icons:microsoftazure",
+          skillName: "VS",
+          fontAwesomeClassname: "mdi:microsoft-visual-studio",
           style: {
-            color: "#0089D6",
+            color: "#5C2D91",
           },
         },
         {
@@ -235,31 +235,31 @@ const skills = {
           },
         },
         {
-          skillName: "PostgreSQL",
-          fontAwesomeClassname: "simple-icons:postgresql",
+          skillName: "Gradle",
+          fontAwesomeClassname: "simple-icons:gradle",
           style: {
-            color: "#336791",
+            color: "#02303A",
           },
         },
         {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
+          skillName: "Java",
+          fontAwesomeClassname: "simple-icons:java",
           style: {
-            color: "#47A248",
+            color: "#007396",
           },
         },
         {
-          skillName: "Docker",
-          fontAwesomeClassname: "simple-icons:docker",
+          skillName: "ADB",
+          fontAwesomeClassname: "ic:outline-adb",
           style: {
-            color: "#1488C6",
+            color: "#3DDC84",
           },
         },
         {
-          skillName: "Kubernetes",
-          fontAwesomeClassname: "simple-icons:kubernetes",
+          skillName: "Eclipse",
+          fontAwesomeClassname: "simple-icons:eclipseide",
           style: {
-            color: "#326CE5",
+            color: "#2C2255",
           },
         },
       ],
