@@ -46,18 +46,13 @@ export default function GithubRepoCard({ repo, theme }) {
             >
               Created on {repo.createdAt.split("T")[0]}
             </p>
+			
             <ProjectLanguages
               className="repo-languages"
               logos={repo.languages}
             />
           </div>
-          {<div className="repo-stats">
-          <div className="repo-left-stat">
-            /* <span>
-              <div className="language-color" style={{ backgroundColor: repo.node.primaryLanguage.color }}></div>
-              <p>{repo.node.primaryLanguage.name}</p>
-            </span>
-			*/
+          {<div className="repo-left-stat">
             <span>
               <svg aria-hidden="true" className="octicon" height="16" role="img" viewBox="0 0 10 16" width="10" fill="rgb(106, 115, 125)" className="repo-star-svg">
                 <path
@@ -73,10 +68,6 @@ export default function GithubRepoCard({ repo, theme }) {
               </svg>
               <p>{repo.stargazers.totalCount}</p>
             </span>
-          </div>
-          <div className="repo-right-stat">
-            <p>{repo.diskUsage} KB</p>
-          </div>
         </div>}
         </div>
       </Fade>
