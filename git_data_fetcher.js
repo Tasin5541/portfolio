@@ -97,7 +97,7 @@ const query_org = {
 	  }
 	}`,
 };
-
+//isFork,
 const query_pinned_projects = {
   query: `
 	query { 
@@ -111,7 +111,10 @@ const query_pinned_projects = {
 		          createdAt,
 		          url,
 		          description,
-		          isFork,
+				  forkCount,
+				  stargazers {
+                    totalCount
+                  },
 		          languages(first:10){
 		            nodes{
 		              name
