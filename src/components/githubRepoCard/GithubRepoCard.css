@@ -4,7 +4,7 @@
   box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 30px -15px;
   padding-top: 2rem;
   padding-right: 2rem;
-  padding-bottom: 0.5rem;
+  padding-bottom: 1rem;
   padding-left: 2rem;
   cursor: pointer;
 }
@@ -35,10 +35,14 @@
 }
 
 .repo-left-stat span {
-  display: flex;
+  display: inline-flex;
   -webkit-box-align: center;
   align-items: center;
   margin-right: 0.75rem;
+}
+
+.repo-left-stat p {
+  margin: 0rem;
 }
 
 .repo-name-div {
