@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ccc307c0ba0fdb2dc9e934a768620ecc",
+    "revision": "5bb9bcd558b654a779e110196ba49c78",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "e99dcd57dd13a2a1dfae",
-    "url": "/portfolio/static/css/main.34c989ee.chunk.css"
+    "revision": "a852a5c47e0e0f499e9e",
+    "url": "/portfolio/static/css/main.236864d1.chunk.css"
   },
   {
-    "revision": "3b73d38c0d7bd6f5eb49",
-    "url": "/portfolio/static/js/2.db4e0489.chunk.js"
+    "revision": "bb61b97e05871c46e4b2",
+    "url": "/portfolio/static/js/2.c7e2ac28.chunk.js"
   },
   {
     "revision": "eaaf63558baae456918a991a401208d7",
-    "url": "/portfolio/static/js/2.db4e0489.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.c7e2ac28.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e99dcd57dd13a2a1dfae",
-    "url": "/portfolio/static/js/main.6030ff29.chunk.js"
+    "revision": "a852a5c47e0e0f499e9e",
+    "url": "/portfolio/static/js/main.4d88ee44.chunk.js"
   },
   {
     "revision": "4b4e5df8eb87e2623f28",
@@ -68,8 +68,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/animated_ashutosh.6c8410d0.png"
   },
   {
-    "revision": "a633be2faf9b129259563d65d0aa1333",
-    "url": "/portfolio/static/media/animated_logo.a633be2f.svg"
+    "revision": "52e0714e5ea7e3b96f50dbfb62de21d1",
+    "url": "/portfolio/static/media/animated_logo.52e0714e.svg"
   },
   {
     "revision": "a69e1b3418b00f8188170b69a69a148b",
@@ -128,8 +128,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/fa-brands-400.5063b105.eot"
   },
   {
-    "revision": "9d204f50ec8e5bcc5dcda0132d404b48",
-    "url": "/portfolio/static/media/fa-brands-400.9d204f50.svg"
+    "revision": "a9c4bb7348f42626454c988dbde1d0a0",
+    "url": "/portfolio/static/media/fa-brands-400.a9c4bb73.svg"
   },
   {
     "revision": "c5e0f14f88a828261ba01558ce2bf26f",
@@ -144,8 +144,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/fa-regular-400.65b286af.ttf"
   },
   {
-    "revision": "9443c1e7fdf95d739af3f0901224f90a",
-    "url": "/portfolio/static/media/fa-regular-400.9443c1e7.svg"
+    "revision": "7b9568e6389b1f8ae0902cd39665fc1e",
+    "url": "/portfolio/static/media/fa-regular-400.7b9568e6.svg"
   },
   {
     "revision": "c1a866ec0e04a5e1915b41fcf261457c",
@@ -168,16 +168,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/fa-solid-900.333bae20.woff"
   },
   {
-    "revision": "3d102342391af184d5ae9e7708d8220f",
-    "url": "/portfolio/static/media/fa-solid-900.3d102342.svg"
-  },
-  {
     "revision": "44d537ab79f921fde5a28b2c1636f397",
     "url": "/portfolio/static/media/fa-solid-900.44d537ab.woff2"
   },
   {
     "revision": "8e4a6dcc692b3887f9f542cd6894d6d4",
     "url": "/portfolio/static/media/fa-solid-900.8e4a6dcc.eot"
+  },
+  {
+    "revision": "c2801fb415f03c7b170934769d7b5397",
+    "url": "/portfolio/static/media/fa-solid-900.c2801fb4.svg"
   },
   {
     "revision": "a73310ea0ad8aebedb65b3106024427a",
@@ -260,12 +260,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/stanford_logo.da0e7c80.png"
   },
   {
-    "revision": "de3da8064f2e9ffab945772c2c67e46f",
-    "url": "/portfolio/static/media/talksCardBack.de3da806.svg"
+    "revision": "0288c5ec7a87ea73f8d14b12fc4bc94e",
+    "url": "/portfolio/static/media/talksCardBack.0288c5ec.svg"
   },
   {
-    "revision": "7f0feeedda08cf7d68593454bc2e82b5",
-    "url": "/portfolio/static/media/talksCardBackAlt.7f0feeed.svg"
+    "revision": "b48e86c9a956d3a3a32ca4a5ae05ddc7",
+    "url": "/portfolio/static/media/talksCardBackAlt.b48e86c9.svg"
   },
   {
     "revision": "3a5989ba48e00c51d66371db5941ac6f",
