@@ -42,7 +42,8 @@
 }
 
 .repo-left-stat p {
-  margin: 0rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .repo-name-div {
