@@ -51,7 +51,7 @@ export default function GithubRepoCard({ repo, theme }) {
               logos={repo.languages}
             />
           </div>
-          {/* <div className="repo-stats">
+          {<div className="repo-stats">
           <div className="repo-left-stat">
             <span>
               <div className="language-color" style={{ backgroundColor: repo.node.primaryLanguage.color }}></div>
@@ -76,7 +76,7 @@ export default function GithubRepoCard({ repo, theme }) {
           <div className="repo-right-stat">
             <p>{repo.node.diskUsage} KB</p>
           </div>
-        </div> */}
+        </div>}
         </div>
       </Fade>
     </div>
