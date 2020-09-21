@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f35e9f90b69cc91bc858d884772f32fc",
+    "revision": "2727f2ef9360e69bd6710c64704e5ce2",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "83b04746582d7a04e60a",
-    "url": "/portfolio/static/css/main.fe9f9b88.chunk.css"
+    "revision": "6d741b30a3a31c73475b",
+    "url": "/portfolio/static/css/main.84ed3c2d.chunk.css"
   },
   {
-    "revision": "bb61b97e05871c46e4b2",
-    "url": "/portfolio/static/js/2.c7e2ac28.chunk.js"
+    "revision": "1f789b5804600e868e86",
+    "url": "/portfolio/static/js/2.e95ac531.chunk.js"
   },
   {
     "revision": "eaaf63558baae456918a991a401208d7",
-    "url": "/portfolio/static/js/2.c7e2ac28.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.e95ac531.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "83b04746582d7a04e60a",
-    "url": "/portfolio/static/js/main.c936451e.chunk.js"
+    "revision": "6d741b30a3a31c73475b",
+    "url": "/portfolio/static/js/main.8cffd8af.chunk.js"
   },
   {
     "revision": "4b4e5df8eb87e2623f28",
@@ -60,6 +60,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/address_image.3b021f8f.svg"
   },
   {
+    "revision": "49e0ee73ad51ac8da19f33c3d5c71fc2",
+    "url": "/portfolio/static/media/android-icon-144x144.49e0ee73.png"
+  },
+  {
+    "revision": "8fb6c26d3152020956b7b85edd388b81",
+    "url": "/portfolio/static/media/android-icon-192x192.8fb6c26d.png"
+  },
+  {
+    "revision": "b85a9e570e36cea6a13155c43343d080",
+    "url": "/portfolio/static/media/android-icon-96x96.b85a9e57.png"
+  },
+  {
     "revision": "e5c4ba08c1a82ef1dc0c72885b61ca05",
     "url": "/portfolio/static/media/android.e5c4ba08.svg"
   },
@@ -70,6 +82,38 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "52e0714e5ea7e3b96f50dbfb62de21d1",
     "url": "/portfolio/static/media/animated_logo.52e0714e.svg"
+  },
+  {
+    "revision": "516e5f02e09118172bd87fc4a9421f53",
+    "url": "/portfolio/static/media/apple-icon-114x114.516e5f02.png"
+  },
+  {
+    "revision": "c8ee763b0158d3d0edd48f915451627d",
+    "url": "/portfolio/static/media/apple-icon-120x120.c8ee763b.png"
+  },
+  {
+    "revision": "49e0ee73ad51ac8da19f33c3d5c71fc2",
+    "url": "/portfolio/static/media/apple-icon-144x144.49e0ee73.png"
+  },
+  {
+    "revision": "240a3f5c3ef6b3bcd3fdb5657d5b9e34",
+    "url": "/portfolio/static/media/apple-icon-152x152.240a3f5c.png"
+  },
+  {
+    "revision": "537f3c9241e642152bf3991d943065be",
+    "url": "/portfolio/static/media/apple-icon-180x180.537f3c92.png"
+  },
+  {
+    "revision": "29bfad611896e135ec14edc575ea9db0",
+    "url": "/portfolio/static/media/apple-icon-76x76.29bfad61.png"
+  },
+  {
+    "revision": "68e6e95dd09c30f53cdb6836af333330",
+    "url": "/portfolio/static/media/apple-icon-precomposed.68e6e95d.png"
+  },
+  {
+    "revision": "68e6e95dd09c30f53cdb6836af333330",
+    "url": "/portfolio/static/media/apple-icon.68e6e95d.png"
   },
   {
     "revision": "a69e1b3418b00f8188170b69a69a148b",
@@ -180,6 +224,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/fa-solid-900.c2801fb4.svg"
   },
   {
+    "revision": "b85a9e570e36cea6a13155c43343d080",
+    "url": "/portfolio/static/media/favicon-96x96.b85a9e57.png"
+  },
+  {
+    "revision": "a27467df5d535fee029a704916ad57f4",
+    "url": "/portfolio/static/media/favicon.a27467df.ico"
+  },
+  {
+    "revision": "2a24a8543299da438f46039d07384efa",
+    "url": "/portfolio/static/media/favicon1.2a24a854.ico"
+  },
+  {
     "revision": "a73310ea0ad8aebedb65b3106024427a",
     "url": "/portfolio/static/media/feelingProud.a73310ea.svg"
   },
@@ -224,8 +280,28 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/legato_logo.4ba886ba.png"
   },
   {
+    "revision": "260d57586012b0ed1ae78accc0bf7083",
+    "url": "/portfolio/static/media/logo512.260d5758.png"
+  },
+  {
     "revision": "52be31441c8cf8a8a16bd7a228d428bf",
     "url": "/portfolio/static/media/manOnTable.52be3144.svg"
+  },
+  {
+    "revision": "fb870661a1a9fdac3ef16b12aac1f850",
+    "url": "/portfolio/static/media/michigan_logo.fb870661.png"
+  },
+  {
+    "revision": "49e0ee73ad51ac8da19f33c3d5c71fc2",
+    "url": "/portfolio/static/media/ms-icon-144x144.49e0ee73.png"
+  },
+  {
+    "revision": "3fce30fff225db8d6a8a1247830d387f",
+    "url": "/portfolio/static/media/ms-icon-150x150.3fce30ff.png"
+  },
+  {
+    "revision": "6512b54b0ff4753ff98ce77b914dcd4e",
+    "url": "/portfolio/static/media/ms-icon-310x310.6512b54b.png"
   },
   {
     "revision": "db6c1c0dddd4c868e00a3cffa1078e49",

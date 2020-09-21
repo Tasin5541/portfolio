@@ -1,7 +1,7 @@
 {
-  "short_name": "masterPortfolio",
-  "name": "masterPortfolio",
-  "icons": [
+ "short_name": "MiftaulPortfolio",
+  "name": "MiftaulPortfolio",
+ "icons": [
   {
    "src": "\/android-icon-36x36.png",
    "sizes": "36x36",
@@ -39,7 +39,7 @@
    "density": "4.0"
   }
  ],
-  "start_url": ".",
+   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
