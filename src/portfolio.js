@@ -391,6 +391,15 @@ const degrees = {
 
 const certifications = {
   certifications: [
+	{
+      title: "Python Basics",
+      subtitle: "- Charles Russell Severance",
+      logo_path: "michigan_logo.png",
+      certificate_link:
+        "https://www.coursera.org/account/accomplishments/verify/2D26V7P25M4T?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course",
+      alt_name: "Michigan University",
+      color_code: "#2A73CC",
+    }
   /*
     {
       title: "Machine Learning",
