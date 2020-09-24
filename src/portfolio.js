@@ -114,6 +114,7 @@ const skills = {
         },
       ],
     },
+    /*
     {
       title: "Full Stack Development",
       fileName: "FullStackImg",
@@ -196,14 +197,15 @@ const skills = {
         },
       ],
     },
+    */
     {
       title: "Android App",
       fileName: "AndroidImg",
       skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
-        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
+        "⚡ Experience working on Android apps",
+        "⚡ knowledge on several SDKs & APIs",
+        "⚡ Deploying Firebase based apps for secure accessing of information from anywhere",
+        "⚡ Adapting new Material Design principles for a more refined look",
       ],
       softwareSkills: [
         {
