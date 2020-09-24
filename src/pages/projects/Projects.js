@@ -55,6 +55,7 @@ class Projects extends Component {
           newTab={true}
           theme={theme}
         />
+        <Footer theme={this.props.theme} />
         <TopButton theme={this.props.theme} />
       </div>
     );

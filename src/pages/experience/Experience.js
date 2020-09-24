@@ -184,6 +184,7 @@ class Experience extends Component {
           </Fade>
         </div>
         <ExperienceAccordion sections={experience["sections"]} theme={theme} />
+        <Footer theme={this.props.theme} />
         <TopButton theme={this.props.theme} />
       </div>
     );

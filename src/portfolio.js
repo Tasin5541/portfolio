@@ -678,7 +678,7 @@ const contactPageData = {
   blogSection: {
     title: "Blogs",
     subtitle:
-      "For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.",
+      "I like to write about the projects I've worked on, my current work and discuss my latest foundings.",
     link: "https://miftaulmannan.wordpress.com/projects/",
     avatar_image_path: "blogs_image.svg",
   },
