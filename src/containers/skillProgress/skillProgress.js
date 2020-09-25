@@ -3,12 +3,12 @@ import "./Progress.css";
 import { techStack } from "../../portfolio";
 import { Fade } from "react-reveal";
 
-export default function StackProgress() {
+export default function StackProgress(props) {
+    const theme = props.theme;
     if (techStack.viewSkillBars) {
         return (
-            <Fade bottom duration={1000} distance="20px">
+            <Fade bottom duration={2000} distance="40px">
             <div className="skills-container">
-            <Fade left duration={1500}>
                 <div className="skills-bar">
                     <h1 className="skills-heading">Proficiency</h1>
                     {techStack.experience.map((exp) => {
@@ -25,13 +25,10 @@ export default function StackProgress() {
                         );
                     })}
                 </div>
-            </Fade>
 
-            <Fade right duration={2000}>
                 <div className="skills-image">
                     <img alt="Skills" src={require("../../assests/images/skill.svg")} />
                 </div>
-            </Fade>
 
             </div>
             </Fade>

@@ -1,0 +1,90 @@
+.tool-meter { 
+    height: 20px;
+    position: relative;
+    background: rgb(243, 239, 239);
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    border-radius: 25px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.tool-meter > span {
+    display: flex;
+    height: 100%;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: #aaa5ff;
+    position: relative;
+    overflow: hidden;
+}
+.tool{
+    display: flex;
+    line-height: 3.5vw;
+    padding-right: 10rem;
+}
+.tool p{
+    margin-right: auto;
+}
+.tool > *:nth-child(1) {
+    flex-basis: | auto;
+}
+.tool > *:nth-child(2) {
+    flex-basis: 75%;
+}
+.tool-bars{
+    font-size: 28px;
+    width: 40%;
+}
+.tool-heading{
+    width: 90%;
+    padding: 20px 10px;
+    margin: 0px auto;
+    margin-top: 2rem;
+}
+.tool-container {
+    display: flex;
+    width: 90%;
+    padding: 0px 10px;
+    margin: 0px auto;
+    justify-content: space-between;
+}
+.tool-container > *:nth-child(1) {
+    flex: 1;
+    margin-bottom: 30px;
+}
+.tool-container > *:nth-child(2) {
+    flex: 1;
+    margin-bottom: 30px;
+}
+.tool-image > img {
+    margin-left: 80px;
+    max-width: 90%;
+    height: auto;
+}
+
+/* Media Query */
+
+@media (max-width: 1456px) {
+    .tool-bar {
+        line-height: 4rem;
+    }
+    .tool-image {
+        order: 2;
+    }
+}
+
+@media (max-width: 768px) {
+    .tool-container {
+        flex-direction: column
+    }
+    .tool-bar {
+        line-height: 3rem;
+        margin: 20px;
+    }
+    .tool-image {
+        order: 2;
+    }
+}
+  

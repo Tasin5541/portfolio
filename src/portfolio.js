@@ -326,6 +326,92 @@ const techStack = {
   ]
 };
 
+//Language Skill
+const sLanguage = {
+  viewSkillBars: true, //Set it to true to show Proficiency Section
+  experience: [
+    {
+      Stack: "Python",  //Insert stack or technology you have experience in
+      progressPercentage: "90%"  //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "C/C++/C#",
+      progressPercentage: "90%"
+    },
+    {
+      Stack: ".Net",
+      progressPercentage: "60%"
+    },
+    {
+      Stack: "Java",  //Insert stack or technology you have experience in
+      progressPercentage: "60%"  //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "JS/ReactJS",
+      progressPercentage: "70%"
+    },
+    {
+      Stack: "SQL/PLSQL",
+      progressPercentage: "90%"
+    },
+    {
+      Stack: "HTML",  //Insert stack or technology you have experience in
+      progressPercentage: "90%"  //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "PHP",
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "CSS",
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "WebGL",
+      progressPercentage: "70%"
+    }
+  ]
+};
+
+//Tools Skill
+const tools = {
+  viewSkillBars: true, //Set it to true to show Proficiency Section
+  experience: [
+    {
+      Stack: "Visual Studio",  //Insert stack or technology you have experience in
+      progressPercentage: "90%"  //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "Google Colab",
+      progressPercentage: "90%"
+    },
+    {
+      Stack: "Code::Blocks",
+      progressPercentage: "90%"
+    },
+    {
+      Stack: "Android Studio",  //Insert stack or technology you have experience in
+      progressPercentage: "70%"  //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "Github",
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "Microsoft Office",
+      progressPercentage: "90%"
+    },
+    {
+      Stack: "Oracle Database",  //Insert stack or technology you have experience in
+      progressPercentage: "90%"  //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "Netbeans",
+      progressPercentage: "80%"
+    }
+  ]
+};
+
 
 // Education Page
 const competitiveSites = {
@@ -701,6 +787,8 @@ export {
   socialMediaLinks,
   skills,
   techStack,
+  sLanguage,
+  tools,
   competitiveSites,
   degrees,
   certifications,
