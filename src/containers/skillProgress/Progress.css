@@ -25,6 +25,9 @@
     width: 40%;
 }
 .skills-container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
     width: 90%;
     padding: 20px 10px;
