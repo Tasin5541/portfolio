@@ -39,16 +39,17 @@
     margin-left: 80px;
     max-width: 90%;
     height: auto;
+    margin-top: auto;
 }
 
 /* Media Query */
 
-@media (max-width: 1456px) {
+@media (max-width: 1380px) {
     .skills-bar {
         line-height: 4rem;
     }
-    .skills-image {
-        display: none;
+    .skills-image > img{
+        margin-left: auto;
         order: 2;
     }
 }
@@ -61,8 +62,8 @@
         line-height: 3rem;
         margin: 20px;
     }
-    .skills-image {
-        display: none;
+    .skills-image > img{
+        margin-left: auto;
         order: 2;
     }
 }

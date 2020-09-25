@@ -56,7 +56,7 @@
 
 /* Media Query */
 
-@media (max-width: 1456px) {
+@media (max-width: 1380px) {
     .lskills-bar {
         line-height: 4rem;
     }
