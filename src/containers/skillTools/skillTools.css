@@ -22,16 +22,13 @@
 .tool{
     display: flex;
     line-height: 3.5vw;
-    padding-right: 10rem;
+    padding-right: 5em;
 }
 .tool p{
     margin-right: auto;
 }
-.tool > *:nth-child(1) {
-    flex-basis: | auto;
-}
-.tool > *:nth-child(2) {
-    flex-basis: 75%;
+.tool > * {
+    flex: 1;
 }
 .tool-bars{
     font-size: 28px;
@@ -48,15 +45,14 @@
     width: 90%;
     padding: 0px 10px;
     margin: 0px auto;
-    justify-content: space-between;
 }
 .tool-container > *:nth-child(1) {
     flex: 1;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 .tool-container > *:nth-child(2) {
     flex: 1;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 .tool-image > img {
     margin-left: 80px;
@@ -73,15 +69,19 @@
     .tool-image {
         order: 2;
     }
+
 }
 
 @media (max-width: 768px) {
     .tool-container {
-        flex-direction: column
+        flex-direction: column;
+    }
+    .tool{
+        flex-direction: column;
+        padding-right: 0em;
     }
     .tool-bar {
         line-height: 3rem;
-        margin: 20px;
     }
     .tool-image {
         order: 2;

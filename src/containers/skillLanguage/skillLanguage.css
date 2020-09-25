@@ -22,20 +22,15 @@
 .lskill{
     display: flex;
     line-height: 3.5vw;
-    padding-right: 10rem;
+    padding-right: 5em;
 }
 .lskill p{
     margin-right: auto;
 }
-.lskill > *:nth-child(1) {
-    flex-basis: | auto;
+.lskill > * {
+    flex: 1;
 }
-.lskill > *:nth-child(2) {
-    flex-basis: 75%;
-}
-.lskill-bars{
-    font-size: 28px;
-    width: 40%;
+.lskills-bar{
 }
 .lskills-heading{
     width: 90%;
@@ -48,13 +43,8 @@
     width: 90%;
     padding: 0px 10px;
     margin: 0px auto;
-    justify-content: space-between;
 }
-.lskills-container > *:nth-child(1) {
-    flex: 1;
-    margin-bottom: 20px;
-}
-.lskills-container > *:nth-child(2) {
+.lskills-container > * {
     flex: 1;
     margin-bottom: 20px;
 }
@@ -73,15 +63,19 @@
     .lskills-image {
         order: 2;
     }
+
 }
 
 @media (max-width: 768px) {
     .lskills-container {
-        flex-direction: column
+        flex-direction: column;
+    }
+    .lskill{
+        flex-direction: column;
+        padding-right: 0em;
     }
     .lskills-bar {
         line-height: 3rem;
-        margin: 20px;
     }
     .lskills-image {
         order: 2;
