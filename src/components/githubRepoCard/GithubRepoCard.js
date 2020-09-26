@@ -4,13 +4,13 @@ import "./GithubRepoCard.css";
 import { Fade } from "react-reveal";
 
 export default function GithubRepoCard({ repo, theme }) {
-  function openRepoinNewTab(url) {
-    var win = window.open(url, "_blank");
-    win.focus();
-  }
+    function openRepoinNewTab(url) {
+        var win = window.open(url, "_blank");
+        win.focus();
+    }
 
-  return (
-    <div>
+    return (
+        <div>
       <Fade bottom duration={2000} distance="40px">
         <div
           className="repo-card-div"
@@ -40,14 +40,14 @@ export default function GithubRepoCard({ repo, theme }) {
             {repo.description}
           </p>
           {<div className="repo-left-stat">
-			<div className="repo-creation-date subTitle">
+      <div className="repo-creation-date subTitle">
             <p
               style={{ color: theme.secondaryText }}
             >
               Created on {repo.createdAt.split("T")[0]}
             </p>
-			<div className="repo-details">
-			<span>
+      <div className="repo-details">
+      <span>
               <svg aria-hidden="true" className="octicon" height="16" role="img" viewBox="0 0 10 16" width="10" fill="rgb(106, 115, 125)" className="repo-star-svg">
                 <path
                   fill-rule="evenodd"
@@ -62,8 +62,8 @@ export default function GithubRepoCard({ repo, theme }) {
               </svg>
               <p>{repo.stargazers.totalCount}</p>
             </span>
-			</div>
-			</div>
+      </div>
+      </div>
             <ProjectLanguages
               className="repo-languages"
               logos={repo.languages}
@@ -72,5 +72,5 @@ export default function GithubRepoCard({ repo, theme }) {
         </div>
       </Fade>
     </div>
-  );
+    );
 }

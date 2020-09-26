@@ -9,7 +9,7 @@ export default function SkillLanguage(props) {
         return (
             <Fade bottom duration={2000} distance="40px">
             <div className="lskills-heading">
-                <h1>Languages/Frameworks</h1>
+                <h1>Languages/ Frameworks</h1>
             </div>
             <div className="lskills-container">
             <Fade left duration={1500}>

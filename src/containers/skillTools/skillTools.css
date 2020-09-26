@@ -27,7 +27,7 @@
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    line-height: 3.5vw;
+    line-height: 2.5vw;
     padding-right: 5em;
 }
 .tool p{
