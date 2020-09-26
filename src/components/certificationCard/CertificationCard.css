@@ -4,9 +4,9 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  border: 1px solid #d9dbdf;
+  /* border: 1px solid #d9dbdf; */
   border-radius: 5px;
-  box-shadow: 5px 5px 5px #d9dbdf;
+  /* box-shadow: 5px 5px 5px #d9dbdf; */
   margin-bottom: 30px;
   flex: 0 0 30%;
 }
@@ -49,7 +49,7 @@
 .content .content-overlay {
   background: rgba(0, 0, 0, 0.7);
   position: absolute;
-  height: 99%;
+  height: 100%;
   width: 100%;
   left: 0;
   top: 0;

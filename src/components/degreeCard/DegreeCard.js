@@ -9,12 +9,12 @@ class DegreeCard extends Component {
     return (
       <div className="degree-card">
         <Flip left duration={2000}>
-          <div className="card-img">
+          <div className="card-img" style={{border: `1px solid ${theme.shadow}`, boxShadow: `5px 5px 5px ${theme.shadow}`}}>
             <img
               style={{
-                maxWidth: "100%",
-                maxHeight: "100%",
-                transform: "scale(50%, 50%)",
+                maxWidth: `100%`,
+                maxHeight: `100%`,
+                transform: `scale(50%, 50%)`,
               }}
               src={require(`../../assests/images/${degree.logo_path}`)}
               alt={degree.alt_name}
@@ -22,7 +22,8 @@ class DegreeCard extends Component {
           </div>
         </Flip>
         <Fade right duration={2000} distance="40px">
-          <div className="card-body">
+          <div className="card-body" style={{borderBottom: `1px solid ${theme.shadow}`, borderLeft: `1px solid ${theme.shadow}`, borderRight: `1px solid ${theme.shadow}`, 
+                                            borderRadius: `7px`, width: `90%`, margin: `10px`, boxShadow: `5px 5px 5px ${theme.shadow}`}}>
             <div
               className="body-header"
               style={{ backgroundColor: theme.headerColor }}

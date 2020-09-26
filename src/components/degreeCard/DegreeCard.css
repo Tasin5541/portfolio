@@ -24,10 +24,10 @@
   height: auto;
   border-radius: 50%;
   padding: 10px;
-  border: 1px solid #d9dbdf;
+  /* border: 1px solid #d9dbdf; */
   /* background-color: #6c63ff; */
   /* background: transparent; */
-  box-shadow: 5px 5px 5px #d9dbdf;
+  /* box-shadow: 5px 5px 5px #d9dbdf; */
 }
 
 .body-header {
@@ -71,8 +71,9 @@
   font-family: "Google Sans Regular";
 }
 
+/*
 .card-body {
-  /* background-color: #00FF00; */
+  background-color: #00FF00;
   border-bottom: 1px solid #d9dbdf;
   border-left: 1px solid #d9dbdf;
   border-right: 1px solid #d9dbdf;
@@ -81,6 +82,7 @@
   margin: 10px;
   box-shadow: 5px 5px 5px #d9dbdf;
 }
+*/
 
 .visit-btn {
   /* background-color: #6c63ff99; */

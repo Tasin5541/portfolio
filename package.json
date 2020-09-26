@@ -32,7 +32,7 @@
     "react-router-dom": "^5.1.2",
     "react-scripts": "^3.4.3",
     "react-spring": "^8.0.27",
-    "styled-components": "^5.1.1",
+    "styled-components": "^5.2.0",
     "styletron-engine-atomic": "^1.4.6",
     "styletron-react": "^5.2.7"
   },

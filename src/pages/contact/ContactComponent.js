@@ -131,7 +131,6 @@ class Contact extends Component {
             </div>
           </Fade>
         </div>
-        <Footer theme={this.props.theme} />
         <TopButton theme={this.props.theme} />
       </div>
     );
