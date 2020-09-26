@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.7fc4f0c3.chunk.css",
-    "main.js": "/portfolio/static/js/main.80331b35.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.80331b35.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.b9a7fdac.chunk.css",
+    "main.js": "/portfolio/static/js/main.96fe00d4.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.96fe00d4.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.6a49aad2.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.6a49aad2.js.map",
-    "static/js/2.1fcbc02e.chunk.js": "/portfolio/static/js/2.1fcbc02e.chunk.js",
-    "static/js/2.1fcbc02e.chunk.js.map": "/portfolio/static/js/2.1fcbc02e.chunk.js.map",
+    "static/js/2.4e63517b.chunk.js": "/portfolio/static/js/2.4e63517b.chunk.js",
+    "static/js/2.4e63517b.chunk.js.map": "/portfolio/static/js/2.4e63517b.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.d7462bd0efcbbb3271d6208585003563.js": "/portfolio/precache-manifest.d7462bd0efcbbb3271d6208585003563.js",
+    "precache-manifest.4308bb25ed52ce97150bce333930b455.js": "/portfolio/precache-manifest.4308bb25ed52ce97150bce333930b455.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.7fc4f0c3.chunk.css.map": "/portfolio/static/css/main.7fc4f0c3.chunk.css.map",
-    "static/js/2.1fcbc02e.chunk.js.LICENSE.txt": "/portfolio/static/js/2.1fcbc02e.chunk.js.LICENSE.txt",
+    "static/css/main.b9a7fdac.chunk.css.map": "/portfolio/static/css/main.b9a7fdac.chunk.css.map",
+    "static/js/2.4e63517b.chunk.js.LICENSE.txt": "/portfolio/static/js/2.4e63517b.chunk.js.LICENSE.txt",
     "static/media/index.css": "/portfolio/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/address_image.svg": "/portfolio/static/media/address_image.3b021f8f.svg",
     "static/media/android-icon-144x144.png": "/portfolio/static/media/android-icon-144x144.49e0ee73.png",
@@ -58,6 +58,7 @@
     "static/media/logo512.png": "/portfolio/static/media/logo512.260d5758.png",
     "static/media/manOnTable.svg": "/portfolio/static/media/manOnTable.52be3144.svg",
     "static/media/michigan_logo.png": "/portfolio/static/media/michigan_logo.fb870661.png",
+    "static/media/moon.svg": "/portfolio/static/media/moon.dc75df84.svg",
     "static/media/ms-icon-144x144.png": "/portfolio/static/media/ms-icon-144x144.49e0ee73.png",
     "static/media/ms-icon-150x150.png": "/portfolio/static/media/ms-icon-150x150.3fce30ff.png",
     "static/media/ms-icon-310x310.png": "/portfolio/static/media/ms-icon-310x310.6512b54b.png",
@@ -69,6 +70,7 @@
     "static/media/pwa.png": "/portfolio/static/media/pwa.bd5f4148.png",
     "static/media/skill.svg": "/portfolio/static/media/skill.34409398.svg",
     "static/media/stanford_logo.png": "/portfolio/static/media/stanford_logo.da0e7c80.png",
+    "static/media/sun.svg": "/portfolio/static/media/sun.4db24c0e.svg",
     "static/media/talksCardBack.svg": "/portfolio/static/media/talksCardBack.0288c5ec.svg",
     "static/media/talksCardBackAlt.svg": "/portfolio/static/media/talksCardBackAlt.b48e86c9.svg",
     "static/media/tasin.png": "/portfolio/static/media/tasin.ed3c02b4.png",
@@ -76,8 +78,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.6a49aad2.js",
-    "static/js/2.1fcbc02e.chunk.js",
-    "static/css/main.7fc4f0c3.chunk.css",
-    "static/js/main.80331b35.chunk.js"
+    "static/js/2.4e63517b.chunk.js",
+    "static/css/main.b9a7fdac.chunk.css",
+    "static/js/main.96fe00d4.chunk.js"
   ]
 }
