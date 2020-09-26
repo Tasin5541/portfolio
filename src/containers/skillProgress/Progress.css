@@ -57,6 +57,12 @@
     }
 }
 
+@media (max-width: 1380px){
+    .skills-container {
+        flex-direction: column
+    }
+}
+
 @media (max-width: 768px) {
     .skills-container {
         flex-direction: column
