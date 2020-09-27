@@ -1,3 +1,4 @@
+/*
 
 import React from "react";
 import "./App.css";
@@ -7,7 +8,6 @@ import { chosenTheme } from "./theme";
 import { GlobalStyles } from "./global";
 import Footer from "./components/footer/Footer";
 
-/*
 function App() {
   return (
     <ThemeProvider theme={chosenTheme}>
