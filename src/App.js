@@ -7,6 +7,7 @@ import { chosenTheme } from "./theme";
 import { GlobalStyles } from "./global";
 import Footer from "./components/footer/Footer";
 
+/*
 function App() {
   return (
     <ThemeProvider theme={chosenTheme}>
@@ -22,9 +23,9 @@ function App() {
 }
 
 export default App;
+*/
 
 
-/*
 // App.js
 import React from 'react';
 import "./App.css";
@@ -64,4 +65,3 @@ function App() {
 }
 
 export default App;
-*/
