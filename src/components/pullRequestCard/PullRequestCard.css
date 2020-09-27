@@ -31,6 +31,7 @@
 }
 
 .files-changed-text-2 {
+  color: #001C55;
   display: inline-block;
   margin-top: 0px;
   margin-bottom: 0px;
@@ -123,6 +124,7 @@
 .parent-repo {
   white-space: nowrap;
   text-overflow: ellipsis;
+  color: #001C55;
   overflow: hidden;
   text-align: left;
   margin-top: 0px;
