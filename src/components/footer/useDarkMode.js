@@ -18,7 +18,6 @@ export const useDarkMode = () => {
     }
   };
 
-  /*
   useEffect(() => {
     const localTheme = window.localStorage.getItem('theme');
     console.log(localTheme);
@@ -27,17 +26,6 @@ export const useDarkMode = () => {
       localTheme ?
         setTheme(localTheme) :
         setMode('light');
-    setComponentMounted(true);
-  }, []);
-  */
-
-  useEffect(() => {
-    const localTheme = window.localStorage.getItem('theme');
-    if (localTheme) {
-      setTheme(localTheme);
-    } else {
-      setMode('light');
-    }
     setComponentMounted(true);
   }, []);
 
