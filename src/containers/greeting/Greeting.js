@@ -29,7 +29,7 @@ export default function Greeting(props) {
                 {greeting.subTitle}
               </p>
               <SocialMedia theme={theme} />
-              <div className="portfolio-repo-btn-div">
+              {/* <div className="portfolio-repo-btn-div">
                 <Button
                   text="⭐ Follow Me On Github"
                   newTab={true}
@@ -37,11 +37,17 @@ export default function Greeting(props) {
                   theme={theme}
                   className="portfolio-repo-btn"
                 />
-              </div>
-              {/* <div className="button-greeting-div">
-              <Button text="Contact me" href="#contact" />
-              <Button text="See my resume" newTab={true} href={greeting.resumeLink} />
-            </div> */}
+              </div> */}
+               <div className="button-greeting-div">
+              <Button
+                  text="⭐ Follow Me On Github"
+                  newTab={true}
+                  href={greeting.portfolio_repository}
+                  theme={theme}
+                  className="portfolio-repo-btn"
+                />
+              <Button text="See my resume" newTab={true} href={greeting.resumeLink} theme={theme} className="portfolio-repo-btn" style={{marginLeft: '1rem'}}/>
+            </div> 
             </div>
           </div>
           <div className="greeting-image-div">

@@ -8,6 +8,9 @@ export default function Footer(props) {
   return (
     <div className="footer-div">
       <Fade>
+        <p className="theme-text" style={{ color: props.theme.secondaryText }}>
+          Toggle Theme
+        </p>
         <p className="footer-text" style={{ color: props.theme.secondaryText }}>
           ⓒ {greeting.title}
         </p>

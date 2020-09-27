@@ -9,15 +9,18 @@
 
 .contact-heading-div {
   display: flex;
+  margin-bottom: 1rem;
 }
 
 .blog-heading-div {
   display: flex;
+  align-items: center;
 }
 
 .address-heading-div {
   display: flex;
   margin-top: 80px;
+  align-items: center;
 }
 
 .blog-heading-div > * {
@@ -39,7 +42,7 @@
 
 .blog-heading-img-div {
   align-items: center;
-  justify-content: center;
+  justify-content: right;
 }
 
 .contact-heading-text-div {
@@ -52,6 +55,7 @@
 
 .address-heading-text-div {
   text-align: center;
+  align-items: center;
 }
 
 .contact-heading-img-div > * {
@@ -60,8 +64,9 @@
 }
 
 .blog-heading-img-div > * {
-  max-width: 100%;
+  width: 75%;
   height: auto;
+  margin-left: 20%;
 }
 
 .contact-heading-text {
@@ -156,6 +161,12 @@
   .blog-heading-div {
     flex-direction: column-reverse;
     margin-top: 60px;
+  }
+
+  .blog-heading-img-div > * {
+    width: 100%;
+    height: auto;
+    margin-left: auto;
   }
 
   .address-heading-div {

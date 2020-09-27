@@ -15,15 +15,17 @@ const ToggleContainer = styled.button`
   font-size: 0.5rem;
   justify-content: space-between;
   margin: 0 auto;
+  margin-top: 1rem;
   overflow: hidden;
   padding: 0.5rem;
   position: relative;
   width: 5rem;
   height: 2rem;
   outline:none;
+  align-items: center;
 
   svg {
-    height: 1rem;
+    height: 1.2rem;
     width: auto;
     transition: all 0.3s linear;
     

@@ -29,6 +29,9 @@
   display: flex;
   margin-top: 20px;
 }
+.button-greeting-div > * {
+  margin-right: 0.5rem;
+}
 
 .greeting-text {
   margin-top: 80px;
@@ -85,6 +88,12 @@
   }
   .greeting-main {
     display: block;
+  }
+
+  .button-greeting-div{
+    flex-direction: column;
+    align-items:center;
+    margin-right: 0;
   }
 
   .portfolio-repo-btn-div {
