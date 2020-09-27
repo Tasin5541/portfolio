@@ -11,6 +11,7 @@ import * as serviceWorker from "./serviceWorker";
 import "./assests/font-awesome/css/all.css";
 
 const engine = new Styletron();
+console.log("starting");
 
 ReactDOM.render(
   <StyletronProvider value={engine}>
