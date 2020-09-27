@@ -15,7 +15,7 @@ function App() {
         <div>
           <Main theme={chosenTheme} />
         </div>
-        <Footer theme={themeMode} />
+        <Footer theme={chosenTheme} />
       </>
     </ThemeProvider>
   );
