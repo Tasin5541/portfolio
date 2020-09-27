@@ -40,9 +40,11 @@ function App() {
   const themeMode = theme === 'light' ? blueTheme : darkTheme;
   console.log(themeMode);
 
+/*
   if (!componentMounted) {
     return <div />
   };
+*/
 
   return (
     <ThemeProvider theme={themeMode}>
