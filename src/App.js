@@ -35,6 +35,7 @@ import Toggle from './components/footer/Toggle';
 import Footer from "./components/footer/Footer";
 
 function App() {
+  console.log("starting");
   const [theme, toggleTheme, componentMounted] = useDarkMode();
 
   const themeMode = theme === 'light' ? blueTheme : darkTheme;
