@@ -51,12 +51,14 @@ const socialMediaLinks = [
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
+  /*
   {
     name: "Stackoverflow",
     link: "https://stackoverflow.com/users/14167873/jongi95",
     fontAwesomeIcon: "fa-stack-overflow", // Reference https://fontawesome.com/icons/twitter?style=brands
     backgroundColor: "#FE7A16", // Reference https://simpleicons.org/?q=twitter
   },
+  */
   {
     name: "Facebook",
     link: "https://www.facebook.com/tasinmiftaulmannan",
@@ -445,14 +447,6 @@ const competitiveSites = {
       iconifyClassname: "simple-icons:hackerearth",
       style: {
         color: "#323754",
-      },
-      profileLink: "",
-    },
-    {
-      siteName: "Kaggle",
-      iconifyClassname: "simple-icons:kaggle",
-      style: {
-        color: "#20BEFF",
       },
       profileLink: "",
     },
