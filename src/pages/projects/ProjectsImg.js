@@ -306,7 +306,7 @@ export default class ProjectsImg extends Component {
           x2="291.61"
           y2="374.94"
           fill="none"
-          stroke={theme.text}
+          stroke={theme.svgfill}
           stroke-miterlimit="10"
         />
         <line
@@ -315,7 +315,7 @@ export default class ProjectsImg extends Component {
           x2="355.96"
           y2="319.78"
           fill="none"
-          stroke={theme.text}
+          stroke={theme.svgfill}
           stroke-miterlimit="10"
         />
         <line
@@ -324,7 +324,7 @@ export default class ProjectsImg extends Component {
           x2="421.27"
           y2="319.78"
           fill="none"
-          stroke={theme.text}
+          stroke={theme.svgfill}
           stroke-miterlimit="10"
         />
         <line
@@ -333,7 +333,7 @@ export default class ProjectsImg extends Component {
           x2="322.62"
           y2="320.21"
           fill="none"
-          stroke={theme.text}
+          stroke={theme.svgfill}
           stroke-miterlimit="10"
         />
         <rect
