@@ -201,11 +201,11 @@ const skills = {
     },
     */
     {
-      title: "Android App",
+      title: "App Development",
       fileName: "AndroidImg",
       skills: [
         "⚡ Experience working on Android apps",
-        "⚡ knowledge on several SDKs & APIs",
+        "⚡ Knowledge on several SDKs & APIs",
         "⚡ Deploying Firebase based apps for secure accessing of information from anywhere",
         "⚡ Adapting new Material Design principles for a more refined look",
       ],
