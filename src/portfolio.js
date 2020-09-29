@@ -11,21 +11,13 @@ const greeting = {
   logo_name: "Miftaul Mannan",
   nickname: "Tasin",
   subTitle:
-    "A passionate individual who always thrive to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "An aspiring developer who loves to take on new projects that challenges his analytical and technological capacities.",
   resumeLink:
     "https://drive.google.com/file/d/1ecfeM8pNH7aLELi5EINHrX8-jY5Uqb0q/view?usp=sharing",
   portfolio_repository: "https://github.com/Tasin5541",
 };
 
 const socialMediaLinks = [
-  /* Your Social Media Link */
-  // github: "https://github.com/ashutosh1919",
-  // linkedin: "https://www.linkedin.com/in/ashutosh-hathidara-88710b138/",
-  // gmail: "ashutoshhathidara98@gmail.com",
-  // gitlab: "https://gitlab.com/ashutoshhathidara98",
-  // facebook: "https://www.facebook.com/laymanbrother.19/",
-  // twitter: "https://twitter.com/ashutosh_1919",
-  // instagram: "https://www.instagram.com/layman_brother/"
 
   {
     name: "Github",
@@ -728,10 +720,10 @@ const experience = {
           company: "Github",
           company_url: "https://github.com/",
           logo_path: "github_logo.png",
-          duration: "July 2019 - PRESENT",
+          duration: "September 2020 - PRESENT",
           location: "Work From Home",
           description:
-            "I am actively contributing to many opensource projects. I have contributed to projects of organisations like Tensorflow, Uber, Facebook, Google, Scikit-learn, Kiwix, Sympy, Python, NVLabs, Fossasia, Netrack, Keras etc. These contributions include bug fixes, feature requests and formulating peoper documentation for project.",
+            "I am actively contributing to many opensource projects. These contributions include bug fixes, feature requests and formulating peoper documentation for project.",
           color: "#181717",
         },
       ],
@@ -743,7 +735,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
+    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure. Stil trying to gain experience by trying my hands on different projects. Most of these are academic projects with some personal projects in between.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -753,12 +745,12 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "tasin.png",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
+      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, Android, Cloud and Opensource Development.",
   },
   blogSection: {
     title: "Blogs",
     subtitle:
-      "I like to write about the projects I've worked on, my current work and discuss my latest foundings.",
+      "I like to write about the projects I've worked on, my current work and discuss my latest foundings. You are most welcome to input your thoughts on my projects.",
     link: "https://miftaulmannan.wordpress.com/projects/",
     avatar_image_path: "blogs_image.svg",
   },
