@@ -55,6 +55,7 @@
   clear: both;
   max-height: 0;
   transition: max-height 0.2s ease-out;
+  text-align: center;
 }
 
 /* menu icon */
