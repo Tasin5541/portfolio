@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.68e5c627.chunk.css",
-    "main.js": "/portfolio/static/js/main.030913e9.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.030913e9.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.dcb46c14.chunk.css",
+    "main.js": "/portfolio/static/js/main.57d1b2b1.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.57d1b2b1.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.6a49aad2.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.6a49aad2.js.map",
     "static/js/2.4e63517b.chunk.js": "/portfolio/static/js/2.4e63517b.chunk.js",
     "static/js/2.4e63517b.chunk.js.map": "/portfolio/static/js/2.4e63517b.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.4097547a54f0d24fdf4256de551d31a5.js": "/portfolio/precache-manifest.4097547a54f0d24fdf4256de551d31a5.js",
+    "precache-manifest.a7450f864dce9f6f839320382bf51034.js": "/portfolio/precache-manifest.a7450f864dce9f6f839320382bf51034.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.68e5c627.chunk.css.map": "/portfolio/static/css/main.68e5c627.chunk.css.map",
+    "static/css/main.dcb46c14.chunk.css.map": "/portfolio/static/css/main.dcb46c14.chunk.css.map",
     "static/js/2.4e63517b.chunk.js.LICENSE.txt": "/portfolio/static/js/2.4e63517b.chunk.js.LICENSE.txt",
     "static/media/index.css": "/portfolio/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/address_image.svg": "/portfolio/static/media/address_image.3b021f8f.svg",
@@ -19,7 +19,7 @@
     "static/media/android-icon-96x96.png": "/portfolio/static/media/android-icon-96x96.b85a9e57.png",
     "static/media/android.svg": "/portfolio/static/media/android.e5c4ba08.svg",
     "static/media/animated_ashutosh.png": "/portfolio/static/media/animated_ashutosh.6c8410d0.png",
-    "static/media/animated_logo.svg": "/portfolio/static/media/animated_logo.52e0714e.svg",
+    "static/media/animated_logo.svg": "/portfolio/static/media/animated_logo.a633be2f.svg",
     "static/media/apple-icon-114x114.png": "/portfolio/static/media/apple-icon-114x114.516e5f02.png",
     "static/media/apple-icon-120x120.png": "/portfolio/static/media/apple-icon-120x120.c8ee763b.png",
     "static/media/apple-icon-144x144.png": "/portfolio/static/media/apple-icon-144x144.49e0ee73.png",
@@ -40,7 +40,7 @@
     "static/media/dsc_logo.png": "/portfolio/static/media/dsc_logo.f65ee6f6.png",
     "static/media/education.svg": "/portfolio/static/media/education.caed892b.svg",
     "static/media/experience.svg": "/portfolio/static/media/experience.85d6957f.svg",
-    "static/media/all.css": "/portfolio/static/media/fa-solid-900.c2801fb4.svg",
+    "static/media/all.css": "/portfolio/static/media/fa-solid-900.8e4a6dcc.eot",
     "static/media/favicon-96x96.png": "/portfolio/static/media/favicon-96x96.b85a9e57.png",
     "static/media/favicon.ico": "/portfolio/static/media/favicon.a27467df.ico",
     "static/media/favicon1.ico": "/portfolio/static/media/favicon1.2a24a854.ico",
@@ -71,15 +71,15 @@
     "static/media/skill.svg": "/portfolio/static/media/skill.34409398.svg",
     "static/media/stanford_logo.png": "/portfolio/static/media/stanford_logo.da0e7c80.png",
     "static/media/sun.svg": "/portfolio/static/media/sun.4db24c0e.svg",
-    "static/media/talksCardBack.svg": "/portfolio/static/media/talksCardBack.0288c5ec.svg",
-    "static/media/talksCardBackAlt.svg": "/portfolio/static/media/talksCardBackAlt.b48e86c9.svg",
+    "static/media/talksCardBack.svg": "/portfolio/static/media/talksCardBack.de3da806.svg",
+    "static/media/talksCardBackAlt.svg": "/portfolio/static/media/talksCardBackAlt.7f0feeed.svg",
     "static/media/tasin.png": "/portfolio/static/media/tasin.ed3c02b4.png",
     "static/media/ui_ux_design.svg": "/portfolio/static/media/ui_ux_design.67a6a11c.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.6a49aad2.js",
     "static/js/2.4e63517b.chunk.js",
-    "static/css/main.68e5c627.chunk.css",
-    "static/js/main.030913e9.chunk.js"
+    "static/css/main.dcb46c14.chunk.css",
+    "static/js/main.57d1b2b1.chunk.js"
   ]
 }
