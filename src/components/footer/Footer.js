@@ -12,7 +12,7 @@ export default function Footer(props) {
           Toggle Theme
         </p>
         <p className="footer-text" style={{ color: props.theme.secondaryText }}>
-          ⓒ {greeting.title}
+          <a href="https://github.com/Tasin5541/portfolio">Get The Template</a>
         </p>
         {/* <ToggleSwitch theme={props.theme} onToggle={props.onToggle}/> */}
       </Fade>
