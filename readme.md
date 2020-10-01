@@ -2,7 +2,7 @@
 
 <p align="center"> 
     <a href="https://tasin5541.github.io" target="_blank">
-    <img src="images/image.png" align="center"></img>
+    <img src="images/banner.png" align="center"></img>
 </p>
 
 # Demo
