@@ -72,6 +72,7 @@ If you open the file, you will see below component at the top of the file. You n
      npm start
      #press ctrl+c in cmd to stop the localhost if you executed the last command
      
+     #Deploy to github
      cd build
      
      git init
@@ -86,6 +87,7 @@ If you open the file, you will see below component at the top of the file. You n
      git push -u origin master
     ```
  - You're all set, now visit "username.github.io" to see your website
+ Note: You'll need to copy the `.git` file inside build folder and save it elsewhere. Everytime you update any information run `npm build` and copy the `.git` back into build folder before continuing with `git add .` and the rest of the commands. Remember to copy the `.git` everytime you run `npm build`
 
 # References 👏🏻
 
