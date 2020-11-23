@@ -34,7 +34,7 @@ To view a live demo, **[click here](https://tasin5541.github.io/)**
      "homepage": "https://username.github.io"
     ```
     
-- Create a file called .env in the root directory of your project, typw the following in cmd/powershell
+- Create a file called .env in the root directory of your project, type the following in cmd/powershell
 
   - ```bash
     cp env.example .env
