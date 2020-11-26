@@ -67,7 +67,7 @@ If you open the file, you will see below component at the top of the file. You n
      
      node git_data_fetcher.js
      
-     npm build
+     npm run build
      
      #To view the website in localhost before deploying
      npm start
