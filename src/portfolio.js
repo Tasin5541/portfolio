@@ -723,7 +723,7 @@ const experience = {
           duration: "September 2020 - PRESENT",
           location: "Work From Home",
           description:
-            "I am actively contributing to many opensource projects. These contributions include bug fixes, feature requests and formulating peoper documentation for project.",
+            "I am actively contributing to many opensource projects. These contributions include bug fixes, feature requests and formulating proper documentation for project.",
           color: "#181717",
         },
       ],
