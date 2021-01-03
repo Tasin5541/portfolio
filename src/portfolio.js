@@ -18,7 +18,6 @@ const greeting = {
 };
 
 const socialMediaLinks = [
-
   {
     name: "Github",
     link: "https://github.com/Tasin5541",
@@ -33,13 +32,15 @@ const socialMediaLinks = [
   },
   {
     name: "YouTube",
-    link: "https://www.youtube.com/channel/UClvrUclYSGX_MZPOF6ySG6A?view_as=subscriber",
+    link:
+      "https://www.youtube.com/channel/UClvrUclYSGX_MZPOF6ySG6A?view_as=subscriber",
     fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
     backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
   },
   {
     name: "Gmail",
-    link: "https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=tasinmiftaulmannan@gmail.com&subject=MISSED%20CALL%20EZTRADER&body=Hello",
+    link:
+      "https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=tasinmiftaulmannan@gmail.com&subject=MISSED%20CALL%20EZTRADER&body=Hello",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
@@ -73,7 +74,6 @@ const skills = {
       skills: [
         "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
         "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
       ],
       softwareSkills: [
         {
@@ -108,14 +108,13 @@ const skills = {
         },
       ],
     },
-    /*
     {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building resposive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & Flask",
+        "⚡ Building resposive website front end using Angular and React",
+        "⚡ Implementing secure access to database",
+        "⚡ Creating application backend in .Net Core",
       ],
       softwareSkills: [
         {
@@ -169,29 +168,21 @@ const skills = {
           },
         },
         {
-          skillName: "Yarn",
-          fontAwesomeClassname: "simple-icons:yarn",
+          skillName: "Angular",
+          fontAwesomeClassname: "simple-icons:angular",
           style: {
-            color: "#2C8EBB",
+            color: "#DD0031",
           },
         },
         {
-          skillName: "Gatsby",
-          fontAwesomeClassname: "simple-icons:gatsby",
+          skillName: ".Net Core",
+          fontAwesomeClassname: "mdi:dot-net",
           style: {
-            color: "#663399",
-          },
-        },
-        {
-          skillName: "Flutter",
-          fontAwesomeClassname: "simple-icons:flutter",
-          style: {
-            color: "#02569B",
+            color: "#5C2D91",
           },
         },
       ],
     },
-    */
     {
       title: "App Development",
       fileName: "AndroidImg",
@@ -306,18 +297,18 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design",  //Insert stack or technology you have experience in
-      progressPercentage: "70%"  //Insert relative proficiency in percentage
+      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      progressPercentage: "80%", //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
-      progressPercentage: "80%"
+      progressPercentage: "70%",
     },
     {
       Stack: "Programming",
-      progressPercentage: "90%"
-    }
-  ]
+      progressPercentage: "80%",
+    },
+  ],
 };
 
 //Language Skill
@@ -325,46 +316,54 @@ const sLanguage = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Python",  //Insert stack or technology you have experience in
-      progressPercentage: "90%"  //Insert relative proficiency in percentage
+      Stack: "Python", //Insert stack or technology you have experience in
+      progressPercentage: "80%", //Insert relative proficiency in percentage
     },
     {
       Stack: "C/C++/C#",
-      progressPercentage: "90%"
+      progressPercentage: "70%",
     },
     {
-      Stack: ".Net",
-      progressPercentage: "60%"
+      Stack: "Java", //Insert stack or technology you have experience in
+      progressPercentage: "60%", //Insert relative proficiency in percentage
     },
     {
-      Stack: "Java",  //Insert stack or technology you have experience in
-      progressPercentage: "60%"  //Insert relative proficiency in percentage
+      Stack: "JavaScript/TypeScript",
+      progressPercentage: "65%",
     },
     {
-      Stack: "JS/ReactJS",
-      progressPercentage: "70%"
+      Stack: "Angular",
+      progressPercentage: "70%",
+    },
+    {
+      Stack: "React",
+      progressPercentage: "60%",
     },
     {
       Stack: "SQL/PLSQL",
-      progressPercentage: "90%"
+      progressPercentage: "80%",
     },
     {
-      Stack: "HTML",  //Insert stack or technology you have experience in
-      progressPercentage: "90%"  //Insert relative proficiency in percentage
-    },
-    {
-      Stack: "PHP",
-      progressPercentage: "80%"
+      Stack: "HTML", //Insert stack or technology you have experience in
+      progressPercentage: "90%", //Insert relative proficiency in percentage
     },
     {
       Stack: "CSS",
-      progressPercentage: "80%"
+      progressPercentage: "80%",
     },
     {
-      Stack: "WebGL",
-      progressPercentage: "70%"
-    }
-  ]
+      Stack: "Bootstrap",
+      progressPercentage: "80%",
+    },
+    {
+      Stack: "PHP",
+      progressPercentage: "70%",
+    },
+    {
+      Stack: ".Net Core",
+      progressPercentage: "65%",
+    },
+  ],
 };
 
 //Tools Skill
@@ -372,40 +371,55 @@ const tools = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Visual Studio",  //Insert stack or technology you have experience in
-      progressPercentage: "90%"  //Insert relative proficiency in percentage
+      Stack: "Visual Studio", //Insert stack or technology you have experience in
+      progressPercentage: "80%", //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "Visual Studio Code", //Insert stack or technology you have experience in
+      progressPercentage: "85%", //Insert relative proficiency in percentage
     },
     {
       Stack: "Google Colab",
-      progressPercentage: "90%"
+      progressPercentage: "95%",
     },
     {
       Stack: "Code::Blocks",
-      progressPercentage: "90%"
+      progressPercentage: "90%",
     },
     {
-      Stack: "Android Studio",  //Insert stack or technology you have experience in
-      progressPercentage: "70%"  //Insert relative proficiency in percentage
-    },
-    {
-      Stack: "Github",
-      progressPercentage: "80%"
-    },
-    {
-      Stack: "Microsoft Office",
-      progressPercentage: "90%"
-    },
-    {
-      Stack: "Oracle Database",  //Insert stack or technology you have experience in
-      progressPercentage: "90%"  //Insert relative proficiency in percentage
+      Stack: "Android Studio", //Insert stack or technology you have experience in
+      progressPercentage: "70%", //Insert relative proficiency in percentage
     },
     {
       Stack: "Netbeans",
-      progressPercentage: "80%"
-    }
-  ]
+      progressPercentage: "80%",
+    },
+    {
+      Stack: "Microsoft Office",
+      progressPercentage: "90%",
+    },
+    {
+      Stack: "Google Docs",
+      progressPercentage: "90%",
+    },
+    {
+      Stack: "Oracle Database", //Insert stack or technology you have experience in
+      progressPercentage: "70%", //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "MS SQL Server", //Insert stack or technology you have experience in
+      progressPercentage: "90%", //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "Firebase", //Insert stack or technology you have experience in
+      progressPercentage: "60%", //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "Github",
+      progressPercentage: "80%",
+    },
+  ],
 };
-
 
 // Education Page
 const competitiveSites = {
@@ -452,11 +466,14 @@ const degrees = {
       subtitle: "B.Sc. in Computer Science and Engineering",
       logo_path: "aust_logo.png",
       alt_name: "IIITDM Kurnool",
-      duration: "2016 - Present",
+      duration: "March 2016 - December 2020",
+      cgpa: "3.89 / 4.00",
       descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
-        "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
+        "⚡ I have studied basic software engineering subjects like DS, Algorithms, OOP, DBMS, OS, CA, AI etc.",
+        "⚡ Apart from this, I have done courses on Deep Learning and Full Stack Development.",
+        "⚡ In the top 5% of my class.",
         "⚡ I was selected for ITEE Training Program which comprised of 20 students in the CSE department.",
+        "⚡ Elected as the team leader in all the group projects.",
       ],
       website_link: "http://aust.edu/",
     },
@@ -465,16 +482,25 @@ const degrees = {
 
 const certifications = {
   certifications: [
-	{
+    {
+      title: "Python Data Structures",
+      subtitle: "- Charles Russell Severance",
+      logo_path: "michigan_logo.png",
+      certificate_link:
+        "https://coursera.org/share/259bcebba35c1ba43934608a5fab9907",
+      alt_name: "Michigan University",
+      color_code: "#2A73CC",
+    },
+    {
       title: "Python Basics",
       subtitle: "- Charles Russell Severance",
       logo_path: "michigan_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/2D26V7P25M4T?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course",
+        "https://coursera.org/share/39d3749b06308a77e0f596129029d4fe",
       alt_name: "Michigan University",
       color_code: "#2A73CC",
-    }
-  /*
+    },
+    /*
     {
       title: "Machine Learning",
       subtitle: "- Andrew Ng",
@@ -638,7 +664,7 @@ const experience = {
     {
       title: "Internships",
       experiences: [
-	  /*
+        /*
         {
           title: "Data Science Research Intern",
           company: "Delhivery Pvt. Ltd.",
@@ -668,7 +694,7 @@ const experience = {
     {
       title: "Volunteerships",
       experiences: [
-	  /*
+        /*
         {
           title: "Google Explore ML Facilitator",
           company: "Google",
@@ -745,7 +771,7 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "tasin.png",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, Android, Cloud and Opensource Development.",
+      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with Basic Programming, ML, AI, Android, Cloud and Opensource Development.",
   },
   blogSection: {
     title: "Blogs",
@@ -756,8 +782,7 @@ const contactPageData = {
   },
   addressSection: {
     title: "Address",
-    subtitle:
-      "Banani, Dhaka-1212, Bangladesh",
+    subtitle: "Banani, Dhaka-1212, Bangladesh",
     avatar_image_path: "address_image.svg",
     location_map_link: "https://goo.gl/maps/yV1Vkp7L3to9qvKX6",
   },
