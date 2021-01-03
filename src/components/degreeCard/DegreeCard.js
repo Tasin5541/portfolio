@@ -9,7 +9,13 @@ class DegreeCard extends Component {
     return (
       <div className="degree-card">
         <Flip left duration={2000}>
-          <div className="card-img" style={{border: `1px solid ${theme.shadow}`, boxShadow: `5px 5px 5px ${theme.shadow}`}}>
+          <div
+            className="card-img"
+            style={{
+              border: `1px solid ${theme.shadow}`,
+              boxShadow: `5px 5px 5px ${theme.shadow}`,
+            }}
+          >
             <img
               style={{
                 maxWidth: `100%`,
@@ -22,8 +28,18 @@ class DegreeCard extends Component {
           </div>
         </Flip>
         <Fade right duration={2000} distance="40px">
-          <div className="card-body" style={{borderBottom: `1px solid ${theme.shadow}`, borderLeft: `1px solid ${theme.shadow}`, borderRight: `1px solid ${theme.shadow}`, 
-                                            borderRadius: `7px`, width: `90%`, margin: `10px`, boxShadow: `5px 5px 5px ${theme.shadow}`}}>
+          <div
+            className="card-body"
+            style={{
+              borderBottom: `1px solid ${theme.shadow}`,
+              borderLeft: `1px solid ${theme.shadow}`,
+              borderRight: `1px solid ${theme.shadow}`,
+              borderRadius: `7px`,
+              width: `90%`,
+              margin: `10px`,
+              boxShadow: `5px 5px 5px ${theme.shadow}`,
+            }}
+          >
             <div
               className="body-header"
               style={{ backgroundColor: theme.headerColor }}
@@ -37,9 +53,10 @@ class DegreeCard extends Component {
                 </h3>
               </div>
               <div className="body-header-duration">
-                <h3 className="duration" style={{ color: theme.text }}>
+                <h3 className="duration ml-auto" style={{ color: theme.text }}>
                   {degree.duration}
                 </h3>
+                <h3 className="cgpa ml-auto">CGPA {degree.cgpa}</h3>
               </div>
             </div>
             <div classname="body-content">
