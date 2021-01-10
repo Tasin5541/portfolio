@@ -471,7 +471,8 @@ const degrees = {
       descriptions: [
         "⚡ I have studied basic software engineering subjects like DS, Algorithms, OOP, DBMS, OS, CA, AI etc.",
         "⚡ Apart from this, I have done courses on Deep Learning and Full Stack Development.",
-        "⚡ In the top 5% of my class.",
+        "⚡ Placed 4th in my class.",
+        "⚡ Dean's List.",
         "⚡ I was selected for ITEE Training Program which comprised of 20 students in the CSE department.",
         "⚡ Elected as the team leader in all the group projects.",
       ],
