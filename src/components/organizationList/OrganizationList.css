@@ -17,8 +17,6 @@
 .organizations-inline {
   display: inline-block;
   margin-right: 50px;
-  margin-bottom: 50px;
-  /* border: 1px solid #000000; */
   font-family: "Google Sans Regular";
 }
 
@@ -44,7 +42,6 @@
   }
 
   .organizations-inline {
-    margin-right: 30px;
     margin-bottom: 30px;
   }
 }
