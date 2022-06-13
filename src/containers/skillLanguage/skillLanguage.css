@@ -36,8 +36,6 @@
 .lskill > * {
     flex: 1;
 }
-.lskills-bar{
-}
 .lskills-heading{
     width: 90%;
     padding: 20px 10px;
@@ -52,6 +50,7 @@
     width: 90%;
     padding: 0px 10px;
     margin: 0px auto;
+  overflow: hidden;
 }
 .lskills-container > * {
     flex: 1;

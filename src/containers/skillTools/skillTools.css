@@ -54,6 +54,7 @@
     width: 90%;
     padding: 0px 10px;
     margin: 0px auto;
+    overflow: hidden;
 }
 .tool-container > *:nth-child(1) {
     flex: 1;
