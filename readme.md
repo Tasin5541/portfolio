@@ -57,7 +57,7 @@ If you open the file, you will see below component at the top of the file. You n
       githubUserName: "Your Github Username Here.",
     };
     ```
-- Navigate to `C:\Windows\System32\portfolio\src` and open the `portfolio.js` file to change your information
+- Navigate to `C:\Windows\System32\portfolio\src` and open the `portfolio.js` file to change your information. [Use https://icon-sets.iconify.design/skill-icons/ for changing the skill icons on the home page]
 - Type the following lines in cmd/powershell one by one and press enter after each line
  
   - ```python
