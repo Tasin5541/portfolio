@@ -4,12 +4,11 @@ import { sLanguage } from "../../portfolio";
 import { Fade } from "react-reveal";
 
 export default function SkillLanguage(props) {
-    const theme = props.theme;
     if (sLanguage.viewSkillBars) {
         return (
             <Fade bottom duration={2000} distance="40px">
             <div className="lskills-heading">
-                <h1>Languages/ Frameworks</h1>
+                <h1>Language / Framework</h1>
             </div>
             <div className="lskills-container">
             <Fade left duration={1500}>
