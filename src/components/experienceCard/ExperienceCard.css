@@ -75,6 +75,16 @@
   font-family: "Google Sans Regular";
 }
 
+.experience-card-feature {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  padding-left: 10px;
+  text-align: justify;
+  margin-right: 20px;
+  font-family: "Google Sans Regular";
+}
+
 .experience-card-company > a {
   position: relative;
   color: #000;
@@ -115,9 +125,6 @@
 
   .experience-card-logo {
     width: 100px;
-  }
-
-  .experience-card-body-div {
   }
 
   .experience-card-heading-left {
