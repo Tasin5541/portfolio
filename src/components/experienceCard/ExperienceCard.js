@@ -60,6 +60,16 @@ class ExperienceCard extends Component {
           >
             {experience["description"]}
           </p>
+          {experience["features"].map((feature) => {
+            return (
+              <p
+                className="experience-card-feature"
+                style={{ color: theme.repotext }}
+              >
+                {feature}
+              </p>
+            );
+          })}
         </div>
       </div>
     );

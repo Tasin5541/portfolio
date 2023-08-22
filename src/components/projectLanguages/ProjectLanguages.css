@@ -4,17 +4,20 @@
   font-size: 2rem;
   margin-bottom: 0px;
   margin-top: 0px;
-  text-align: right;
+  text-align: left;
 }
 
 .software-skill-inline-languages {
   display: inline-block;
-  margin-right: 20px;
+  margin-left: 20px;
   margin-bottom: 0px;
   font-family: "Google Sans Regular";
 }
 
 @media (max-width: 768px) {
+  .software-skills-main-div {
+    margin-left: -20px;
+  }
   .software-skill-inline-languages {
     margin-right: 10px;
     margin-bottom: 0px;

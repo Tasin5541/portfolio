@@ -4,12 +4,11 @@ import { tools } from "../../portfolio";
 import { Fade } from "react-reveal";
 
 export default function SkillTools(props) {
-    const theme = props.theme;
     if (tools.viewSkillBars) {
         return (
             <Fade bottom duration={2000} distance="40px">
             <div className="tool-heading">
-                <h1>Tools</h1>
+                <h1>Development Tools</h1>
             </div>
             <div className="tool-container">
             <Fade left duration={1500}>

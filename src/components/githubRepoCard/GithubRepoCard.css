@@ -7,6 +7,7 @@
   padding-bottom: 1rem;
   padding-left: 2rem;
   cursor: pointer;
+  height: 100%;
 }
 .repo-card-div:hover {
   box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px -10px;
@@ -24,6 +25,7 @@
   -webkit-box-flex: 1;
   flex-grow: 1;
   display: flex;
+  justify-content: space-between;
 }
 
 .language-color {
@@ -94,8 +96,8 @@
   margin: 0;
   font-family: "Google Sans Regular";
   font-weight: 400;
+  text-align: left;
   margin-left: 0px;
-  margin-right: auto;
   margin-bottom: 0.5rem;
 }
 
@@ -105,6 +107,10 @@
 }
 
 @media (max-width: 768px) {
+  .repo-left-stat {
+    flex-direction: column;
+  }
+
   .repo-name {
     font-size: 16px;
   }

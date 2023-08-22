@@ -9,7 +9,7 @@ const settings = {
 const greeting = {
   title: "Miftaul Mannan",
   logo_name: "Miftaul Mannan",
-  nickname: "Tasin",
+  nickname: null,
   subTitle:
     "An aspiring developer who loves to take on new projects that challenges his analytical and technological capacities.",
   resumeLink:
@@ -44,14 +44,6 @@ const socialMediaLinks = [
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
-  /*
-  {
-    name: "Stackoverflow",
-    link: "https://stackoverflow.com/users/14167873/jongi95",
-    fontAwesomeIcon: "fa-stack-overflow", // Reference https://fontawesome.com/icons/twitter?style=brands
-    backgroundColor: "#FE7A16", // Reference https://simpleicons.org/?q=twitter
-  },
-  */
   {
     name: "Facebook",
     link: "https://www.facebook.com/tasinmiftaulmannan",
@@ -69,54 +61,99 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
-      title: "Data Science & AI",
-      fileName: "DataScienceImg",
-      skills: [
-        "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
-        "⚡ Experience of working with Computer Vision and NLP projects",
-      ],
-      softwareSkills: [
-        {
-          skillName: "Tensorflow",
-          fontAwesomeClassname: "logos-tensorflow",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Keras",
-          fontAwesomeClassname: "simple-icons:keras",
-          style: {
-            backgroundColor: "white",
-            color: "#D00000",
-          },
-        },
-        {
-          skillName: "PyTorch",
-          fontAwesomeClassname: "logos-pytorch",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Python",
-          fontAwesomeClassname: "ion-logo-python",
-          style: {
-            backgroundColor: "transparent",
-            color: "#3776AB",
-          },
-        },
-      ],
-    },
-    {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building resposive website front end using Angular and React",
+        "⚡ Building resposive website using NextJs and React",
         "⚡ Implementing secure access to database",
         "⚡ Creating application backend in .Net Core",
+        "⚡ Implementing dynamic script execution defined by user",
       ],
       softwareSkills: [
+        {
+          skillName: "ReactJS",
+          fontAwesomeClassname: "simple-icons:react",
+          style: {
+            color: "#61DAFB",
+          },
+        },
+        {
+          skillName: "NextJs",
+          fontAwesomeClassname: "akar-icons:nextjs-fill",
+          style: {
+            color: "#626262",
+          },
+        },
+        {
+          skillName: ".Net Core",
+          fontAwesomeClassname: "mdi:dot-net",
+          style: {
+            color: "#5C2D91",
+          },
+        },
+        {
+          skillName: "NodeJS",
+          fontAwesomeClassname: "simple-icons:node-dot-js",
+          style: {
+            color: "#339933",
+          },
+        },
+        {
+          skillName: "Redux",
+          fontAwesomeClassname: "tabler:brand-redux",
+          style: {
+            color: "#7749bd",
+          },
+        },
+        {
+          skillName: "JavaScript",
+          fontAwesomeClassname: "simple-icons:javascript",
+          style: {
+            color: "#F7DF1E",
+          },
+        },
+        {
+          skillName: "TypeScript",
+          fontAwesomeClassname: "devicon:typescript",
+          style: {
+            color: "#3178c6",
+          },
+        },
+        {
+          skillName: "C#",
+          fontAwesomeClassname: "teenyicons:c-sharp-solid",
+          style: {
+            color: "#953dac",
+          },
+        },
+        {
+          skillName: "MS SQL Server",
+          fontAwesomeClassname: "tabler:sql",
+          style: {
+            color: "#c42626",
+          },
+        },
+        {
+          skillName: "MongoDB",
+          fontAwesomeClassname: "vscode-icons:file-type-mongo",
+          style: {
+            color: "#c42626",
+          },
+        },
+        {
+          skillName: "Firebase",
+          fontAwesomeClassname: "logos:firebase",
+          style: {
+            color: "#c42626",
+          },
+        },
+        {
+          skillName: "Docker",
+          fontAwesomeClassname: "skill-icons:docker",
+          style: {
+            color: "#c42626",
+          },
+        },
         {
           skillName: "HTML5",
           fontAwesomeClassname: "simple-icons:html5",
@@ -139,153 +176,10 @@ const skills = {
           },
         },
         {
-          skillName: "JavaScript",
-          fontAwesomeClassname: "simple-icons:javascript",
+          skillName: "Tailwind CSS",
+          fontAwesomeClassname: "file-icons:tailwind",
           style: {
-            backgroundColor: "#000000",
-            color: "#F7DF1E",
-          },
-        },
-        {
-          skillName: "ReactJS",
-          fontAwesomeClassname: "simple-icons:react",
-          style: {
-            color: "#61DAFB",
-          },
-        },
-        {
-          skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
-          style: {
-            color: "#339933",
-          },
-        },
-        {
-          skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
-          style: {
-            color: "#CB3837",
-          },
-        },
-        {
-          skillName: "Angular",
-          fontAwesomeClassname: "simple-icons:angular",
-          style: {
-            color: "#DD0031",
-          },
-        },
-        {
-          skillName: ".Net Core",
-          fontAwesomeClassname: "mdi:dot-net",
-          style: {
-            color: "#5C2D91",
-          },
-        },
-      ],
-    },
-    {
-      title: "App Development",
-      fileName: "AndroidImg",
-      skills: [
-        "⚡ Experience working on Android apps",
-        "⚡ Knowledge on several SDKs & APIs",
-        "⚡ Deploying Firebase based apps for secure accessing of information from anywhere",
-        "⚡ Adapting new Material Design principles for a more refined look",
-      ],
-      softwareSkills: [
-        {
-          skillName: "GCP",
-          fontAwesomeClassname: "simple-icons:googlecloud",
-          style: {
-            color: "#4285F4",
-          },
-        },
-        {
-          skillName: "Android Studio",
-          fontAwesomeClassname: "mdi:android-studio",
-          style: {
-            color: "#3DDC84",
-          },
-        },
-        {
-          skillName: "VS",
-          fontAwesomeClassname: "mdi:microsoft-visual-studio",
-          style: {
-            color: "#5C2D91",
-          },
-        },
-        {
-          skillName: "Firebase",
-          fontAwesomeClassname: "simple-icons:firebase",
-          style: {
-            color: "#FFCA28",
-          },
-        },
-        {
-          skillName: "Gradle",
-          fontAwesomeClassname: "simple-icons:gradle",
-          style: {
-            color: "#02303A",
-          },
-        },
-        {
-          skillName: "Java",
-          fontAwesomeClassname: "simple-icons:java",
-          style: {
-            color: "#007396",
-          },
-        },
-        {
-          skillName: "ADB",
-          fontAwesomeClassname: "ic:outline-adb",
-          style: {
-            color: "#3DDC84",
-          },
-        },
-        {
-          skillName: "Eclipse",
-          fontAwesomeClassname: "simple-icons:eclipseide",
-          style: {
-            color: "#2C2255",
-          },
-        },
-      ],
-    },
-    {
-      title: "UI/UX Design",
-      fileName: "DesignImg",
-      skills: [
-        "⚡ Designing highly attractive user interface for mobile and web applications",
-        "⚡ Customizing logo designs and building logos from scratch",
-        "⚡ Creating the flow of application functionalities to optimize user experience",
-      ],
-      softwareSkills: [
-        {
-          skillName: "Adobe XD",
-          fontAwesomeClassname: "simple-icons:adobexd",
-          style: {
-            color: "#FF2BC2",
-          },
-        },
-        {
-          skillName: "Figma",
-          fontAwesomeClassname: "simple-icons:figma",
-          style: {
-            color: "#F24E1E",
-          },
-        },
-        {
-          skillName: "Adobe Illustrator",
-          fontAwesomeClassname: "simple-icons:adobeillustrator",
-          style: {
-            color: "#FF7C00",
-          },
-        },
-        {
-          skillName: "Inkscape",
-          fontAwesomeClassname: "simple-icons:inkscape",
-          style: {
-            color: "#000000",
+            color: "#38bdf8",
           },
         },
       ],
@@ -298,7 +192,7 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "80%", //Insert relative proficiency in percentage
+      progressPercentage: "90%", //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
@@ -316,52 +210,44 @@ const sLanguage = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Python", //Insert stack or technology you have experience in
-      progressPercentage: "80%", //Insert relative proficiency in percentage
-    },
-    {
-      Stack: "C/C++/C#",
-      progressPercentage: "70%",
-    },
-    {
-      Stack: "Java", //Insert stack or technology you have experience in
-      progressPercentage: "60%", //Insert relative proficiency in percentage
-    },
-    {
-      Stack: "JavaScript/TypeScript",
-      progressPercentage: "65%",
-    },
-    {
-      Stack: "Angular",
-      progressPercentage: "70%",
-    },
-    {
       Stack: "React",
-      progressPercentage: "60%",
+      progressPercentage: "90%",
     },
     {
-      Stack: "SQL/PLSQL",
+      Stack: "NextJs",
+      progressPercentage: "70%",
+    },
+    {
+      Stack: "JavaScript",
       progressPercentage: "80%",
     },
     {
-      Stack: "HTML", //Insert stack or technology you have experience in
-      progressPercentage: "90%", //Insert relative proficiency in percentage
+      Stack: "TypeScript",
+      progressPercentage: "70%",
     },
     {
-      Stack: "CSS",
-      progressPercentage: "80%",
-    },
-    {
-      Stack: "Bootstrap",
-      progressPercentage: "80%",
-    },
-    {
-      Stack: "PHP",
+      Stack: "Redux",
       progressPercentage: "70%",
     },
     {
       Stack: ".Net Core",
-      progressPercentage: "65%",
+      progressPercentage: "70%",
+    },
+    {
+      Stack: "C#",
+      progressPercentage: "80%",
+    },
+    {
+      Stack: "SQL", //Insert stack or technology you have experience in
+      progressPercentage: "80%", //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "CSS/SASS",
+      progressPercentage: "80%",
+    },
+    {
+      Stack: "NodeJs",
+      progressPercentage: "40%",
     },
   ],
 };
@@ -371,52 +257,40 @@ const tools = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Visual Studio", //Insert stack or technology you have experience in
-      progressPercentage: "80%", //Insert relative proficiency in percentage
-    },
-    {
-      Stack: "Visual Studio Code", //Insert stack or technology you have experience in
-      progressPercentage: "85%", //Insert relative proficiency in percentage
-    },
-    {
-      Stack: "Google Colab",
-      progressPercentage: "95%",
-    },
-    {
-      Stack: "Code::Blocks",
-      progressPercentage: "90%",
-    },
-    {
-      Stack: "Android Studio", //Insert stack or technology you have experience in
-      progressPercentage: "70%", //Insert relative proficiency in percentage
-    },
-    {
-      Stack: "Netbeans",
+      Stack: "Git",
       progressPercentage: "80%",
     },
     {
-      Stack: "Microsoft Office",
-      progressPercentage: "90%",
-    },
-    {
-      Stack: "Google Docs",
-      progressPercentage: "90%",
-    },
-    {
-      Stack: "Oracle Database", //Insert stack or technology you have experience in
+      Stack: "Azure Services", //Insert stack or technology you have experience in
       progressPercentage: "70%", //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "Docker", //Insert stack or technology you have experience in
+      progressPercentage: "60%", //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "Visual Studio Code", //Insert stack or technology you have experience in
+      progressPercentage: "95%", //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "Visual Studio ", //Insert stack or technology you have experience in
+      progressPercentage: "80%", //Insert relative proficiency in percentage
     },
     {
       Stack: "MS SQL Server", //Insert stack or technology you have experience in
       progressPercentage: "90%", //Insert relative proficiency in percentage
     },
     {
+      Stack: "MySQL", //Insert stack or technology you have experience in
+      progressPercentage: "70%", //Insert relative proficiency in percentage
+    },
+    {
       Stack: "Firebase", //Insert stack or technology you have experience in
       progressPercentage: "60%", //Insert relative proficiency in percentage
     },
     {
-      Stack: "Github",
-      progressPercentage: "80%",
+      Stack: "MongoDB", //Insert stack or technology you have experience in
+      progressPercentage: "60%", //Insert relative proficiency in percentage
     },
   ],
 };
@@ -425,36 +299,12 @@ const tools = {
 const competitiveSites = {
   competitiveSites: [
     {
-      siteName: "HackerRank",
-      iconifyClassname: "simple-icons:hackerrank",
-      style: {
-        color: "#2EC866",
-      },
-      profileLink: "",
-    },
-    {
       siteName: "Codechef",
       iconifyClassname: "simple-icons:codechef",
       style: {
         color: "#5B4638",
       },
-      profileLink: "",
-    },
-    {
-      siteName: "Codeforces",
-      iconifyClassname: "simple-icons:codeforces",
-      style: {
-        color: "#1F8ACB",
-      },
-      profileLink: "",
-    },
-    {
-      siteName: "Hackerearth",
-      iconifyClassname: "simple-icons:hackerearth",
-      style: {
-        color: "#323754",
-      },
-      profileLink: "",
+      profileLink: "https://www.codechef.com/users/tasin95",
     },
   ],
 };
@@ -466,8 +316,8 @@ const degrees = {
       subtitle: "B.Sc. in Computer Science and Engineering",
       logo_path: "aust_logo.png",
       alt_name: "IIITDM Kurnool",
-      duration: "March 2016 - December 2020",
-      cgpa: "3.89 / 4.00",
+      duration: "March 2016 - January 2021",
+      cgpa: "3.855 / 4.00",
       descriptions: [
         "⚡ I have studied basic software engineering subjects like DS, Algorithms, OOP, DBMS, OS, CA, AI etc.",
         "⚡ Apart from this, I have done courses on Deep Learning and Full Stack Development.",
@@ -483,6 +333,15 @@ const degrees = {
 
 const certifications = {
   certifications: [
+    {
+      title: "TENCON 2021",
+      subtitle: "- Nirmal Nair",
+      logo_path: "tencon.png",
+      certificate_link:
+        "https://drive.google.com/file/d/1wLzB3oGkyI4svn09Yor2sAeSF3DbPzeU/view?usp=sharing",
+      alt_name: "New Zealand",
+      color_code: "white",
+    },
     {
       title: "Python Data Structures",
       subtitle: "- Charles Russell Severance",
@@ -501,247 +360,171 @@ const certifications = {
       alt_name: "Michigan University",
       color_code: "#2A73CC",
     },
-    /*
+
     {
-      title: "Machine Learning",
-      subtitle: "- Andrew Ng",
-      logo_path: "stanford_logo.png",
+      title: "React: The Big Picture",
+      subtitle: "- Cory House",
+      logo_path: "pluralsight_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
-      alt_name: "Stanford University",
-      color_code: "#8C151599",
+        "https://drive.google.com/file/d/1qcJipEjDB3YanZor4xHpU_9BC73FuCud/view?usp=sharing",
+      alt_name: "Pluralsight",
+      color_code: "#000000",
     },
     {
-      title: "Deep Learning",
-      subtitle: "- Andrew Ng",
-      logo_path: "deeplearning_ai_logo.png",
+      title: "React: Getting Started",
+      subtitle: "- Samer Buna",
+      logo_path: "pluralsight_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/H8CPSFXAJD2G",
-      alt_name: "deeplearning.ai",
-      color_code: "#00000099",
+        "https://drive.google.com/file/d/1LYzFiq0DDYYiDHowG4nbPjgmjCgd3QiV/view?usp=sharing",
+      alt_name: "Pluralsight.",
+      color_code: "#000000",
     },
     {
-      title: "ML on GCP",
-      subtitle: "- GCP Training",
-      logo_path: "google_logo.png",
+      title: "Javascript: Getting Started",
+      subtitle: "- Mark Zamoyta",
+      logo_path: "pluralsight_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/EB4VJARK8647",
-      alt_name: "Google",
-      color_code: "#0C9D5899",
+        "https://drive.google.com/file/d/12qhxMM2DGp4YVdG9wcpFDNX7r1bjqumx/view?usp=sharing",
+      alt_name: "Pluralsight",
+      color_code: "#000000",
     },
     {
-      title: "Data Science",
-      subtitle: "- Alex Aklson",
-      logo_path: "ibm_logo.png",
+      title: "Designing React Components",
+      subtitle: "- Peter Kellner",
+      logo_path: "pluralsight_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/PLEAPCSJBZT5",
-      alt_name: "IBM",
-      color_code: "#1F70C199",
+        "https://drive.google.com/file/d/12f_pCjrOIkx0SMC0mqjnxpMwc9tesQoC/view?usp=sharing",
+      alt_name: "Pluralsight.",
+      color_code: "#000000",
     },
     {
-      title: "Big Data",
-      subtitle: "- Kim Akers",
-      logo_path: "microsoft_logo.png",
+      title: "Managing React State",
+      subtitle: "- Cory House",
+      logo_path: "pluralsight_logo.png",
       certificate_link:
-        "https://drive.google.com/file/d/164zKCFOsI4vGqokc-Qj-e_D00kLDHIrG/view",
-      alt_name: "Microsoft",
-      color_code: "#D83B0199",
+        "https://drive.google.com/file/d/12f_pCjrOIkx0SMC0mqjnxpMwc9tesQoC/view?usp=sharing",
+      alt_name: "Pluralsight.",
+      color_code: "#000000",
     },
     {
-      title: "Advanced Data Science",
-      subtitle: "- Romeo Kienzler",
-      logo_path: "ibm_logo.png",
+      title: "Building Applications with React and Redux",
+      subtitle: "- Cory House",
+      logo_path: "pluralsight_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/BH2T9BRU87BH",
-      alt_name: "IBM",
-      color_code: "#1F70C199",
+        "https://drive.google.com/file/d/15UMAKzJq1g1cIrz-sp1Ve0efg-M-hAq1/view",
+      alt_name: "Pluralsight.",
+      color_code: "#000000",
     },
     {
-      title: "Advanced ML on GCP",
-      subtitle: "- GCP Training",
-      logo_path: "google_logo.png",
+      title: "Using React Hooks",
+      subtitle: "- Peter Kellner",
+      logo_path: "pluralsight_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/5JZZM7TNQ2AV",
-      alt_name: "Google",
-      color_code: "#0C9D5899",
+        "https://drive.google.com/file/d/15mPlLGrjpmkdlf3eyi7B_NLG8Wro5EEg/view",
+      alt_name: "Pluralsight.",
+      color_code: "#000000",
     },
     {
-      title: "DL on Tensorflow",
-      subtitle: "- Laurence Moroney",
-      logo_path: "deeplearning_ai_logo.png",
+      title: "Styling React Component",
+      subtitle: "- Jake Trent",
+      logo_path: "pluralsight_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/6T4DCUGNK8J8",
-      alt_name: "deeplearning.ai",
-      color_code: "#00000099",
+        "https://drive.google.com/file/d/14Wvag5M1sGzOlgWCC2PPDX4SsUkiqf72/view",
+      alt_name: "Pluralsight.",
+      color_code: "#000000",
     },
     {
-      title: "Fullstack Development",
-      subtitle: "- Jogesh Muppala",
-      logo_path: "coursera_logo.png",
+      title: "Testing React Components",
+      subtitle: "- Liam McLennan",
+      logo_path: "pluralsight_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/certificate/NRANJA66Y2YA",
-      alt_name: "Coursera",
-      color_code: "#2A73CC",
+        "https://drive.google.com/file/d/1654lPVh6R1zwSjgZjHV9gz7mgQ7wRmLm/view",
+      alt_name: "Pluralsight.",
+      color_code: "#000000",
     },
     {
-      title: "Kuberenetes on GCP",
-      subtitle: "- Qwiklabs",
-      logo_path: "gcp_logo.png",
+      title: "Server Rendering React Components",
+      subtitle: "- Daniel Stern",
+      logo_path: "pluralsight_logo.png",
       certificate_link:
-        "https://google.qwiklabs.com/public_profiles/e4d5a92b-faf6-4679-a70b-a9047c0cd750",
-      alt_name: "GCP",
-      color_code: "#4285F499",
+        "https://drive.google.com/file/d/14YrLAmZlGNx2PayR0unlLjMoySL-eRG5/view",
+      alt_name: "Pluralsight.",
+      color_code: "#000000",
     },
     {
-      title: "Cryptography",
-      subtitle: "- Saurabh Mukhopadhyay",
-      logo_path: "nptel_logo.png",
+      title: "Optimize Performance React",
+      subtitle: "- Hendrik Swanepoel",
+      logo_path: "pluralsight_logo.png",
       certificate_link:
-        "https://drive.google.com/open?id=1z5ExD_QJVdU0slLkp8CBqSF3-C3g-ro_",
-      alt_name: "NPTEL",
-      color_code: "#FFBB0099",
+        "https://drive.google.com/file/d/15kaZAf9642Kp_LBXYeqiVSzInaz-peAi/view",
+      alt_name: "Pluralsight.",
+      color_code: "#000000",
     },
     {
-      title: "Cloud Architecture",
-      subtitle: "- Qwiklabs",
-      logo_path: "gcp_logo.png",
+      title: "Node.js The Big Picture",
+      subtitle: "- Paul O'Fallon",
+      logo_path: "pluralsight_logo.png",
       certificate_link:
-        "https://google.qwiklabs.com/public_profiles/5fab4b2d-be6f-408c-8dcb-6d3b58ecb4a2",
-      alt_name: "GCP",
-      color_code: "#4285F499",
+        "https://drive.google.com/file/d/16jqLAZ4rWiUmITkGGxrZb68Eo5l77UPu/view",
+      alt_name: "Pluralsight.",
+      color_code: "#000000",
     },
-	*/
+    {
+      title: "Node.js Getting Started",
+      subtitle: "- Samer Buna",
+      logo_path: "pluralsight_logo.png",
+      certificate_link:
+        "https://drive.google.com/file/d/173qXhPtqI1zwSzcb487R3Ud_0j13LiDP/view",
+      alt_name: "Pluralsight.",
+      color_code: "#000000",
+    },
+    {
+      title: "Using MongoDB with Node.js",
+      subtitle: "- Samer Buna",
+      logo_path: "pluralsight_logo.png",
+      certificate_link:
+        "https://drive.google.com/file/d/16za14GrABr8xBM8r8hCtag1fO2faZTD8/view",
+      alt_name: "Pluralsight.",
+      color_code: "#000000",
+    },
   ],
 };
 
 // Experience Page
 const experience = {
   title: "Experience",
-  subtitle: "Work, Internship and Volunteership",
+  subtitle: "Work and Volunteership",
   description:
-    "I am a fresh graduate with experience gained from voluntary works on sites like stackoverflow, github.",
+    "Fullstack Developer with 2+ years of experience working with React, .Net and NodeJs in an agile environment. Experience in leading a 5 member frontend team to achieve concrete goals on a strict deadline in a large scale project consisting over millions of records of drivers all throughout North America.",
   header_image_path: "experience.svg",
   sections: [
     {
       title: "Work",
       experiences: [
-        /*
-		{
-          title: "Associate AI Engineer",
-          company: "Legato Health Technology",
-          company_url: "https://legatohealthtech.com/",
-          logo_path: "legato_logo.png",
-          duration: "June 2020 - PRESENT",
-          location: "Hyderabad, Telangana",
+        {
+          title: "Fullstack Developer",
+          company: "CodeExcel inc.",
+          company_url: "https://codeexcel.ca/",
+          logo_path: "codeexcel.jpg",
+          duration: "January 2021 - PRESENT",
+          location: "Markham, ON, Canada (Remote)",
           description:
-            "I am working on automating healthcare products. The projects involve automation for process improvements and for significantly enhancing the profits. I am currently working on Cancer Survival and Reoccurence Prediction. Our goal is to make AI system which scales and removes doctor dependency as much as possible.",
+            "Worked with 2 Insurance Bureau of Canada and Pixelmask Inc. as a Contractor via CodeExcel. Engaged in 5 successful projects utilizing stacks such as: React, .Net Core, MS SQL Server, Azure Cloud Services (AD, B2C, Key Vault, Blob Storage, Front Door etc). The projects are mainly focused towards the North American Insurance Industry.",
+          features: [
+            "- Led the frontend team that resulted in a 25% increase in sprint completion rate.",
+            "- Implemented Single Sign-On (SSO) via Azure B2C across multiple legacy projects, simplifying user experience and reducing account management, resulting in seamless login with company credentials.",
+            "- Uncovered critical project vulnerabilities within 2 days of joining the IBC team, enabling timely remediation and preventing potential losses.",
+            "- Slashed development cost by 13% by suggesting and building a SCIM v2 compliant API for automatic user provisioning between IDP and application instead of using third party solution.",
+            "- Implemented flexible payment gateway module, empowering clients to easily switch gateways, boosting convenience and expanding options.",
+            "- Optimized UI performance by 15% and eliminated code redundancy using React's functional components, custom hooks, and Redux.",
+          ],
           color: "#0879bf",
         },
-        {
-          title: "Android and ML Developer",
-          company: "Muffito Incorporation",
-          company_url: "https://www.linkedin.com/company/muffito-inc/about/",
-          logo_path: "muffito_logo.png",
-          duration: "May 2018 - Oct 2018",
-          location: "Pune, Maharashtra",
-          description:
-            "I have created complete Android Application for locating Pub, Bar and beverage shops around you. I have also worked on implementation of algorithms for Face Detection, Text extraction from Image. I was involved in a team for creating complete software architecure of mobile and web application as well as admin panel for company.",
-          color: "#9b1578",
-        },
-        {
-          title: "Android Developer",
-          company: "FreeCopy Pvt. Ltd.",
-          company_url: "https://www.linkedin.com/company/freecopy/about/",
-          logo_path: "freecopy_logo.png",
-          duration: "Nov 2017 - Dec 2017",
-          location: "Ahmedabad, Gujarat",
-          description:
-            "FreeCopy is the Start up from Indian Institute of Management, Ahmedabad. I have changed the integration of the whole app from Google to Firebase. I learnt the efﬁcient ways of Data communications like Retroﬁt, Eventbus etc. I experienced the real time start up. I learnt the Design thinking of UI on perspective of People.",
-          color: "#fc1f20",
-        },
-		*/
-      ],
-    },
-    {
-      title: "Internships",
-      experiences: [
-        /*
-        {
-          title: "Data Science Research Intern",
-          company: "Delhivery Pvt. Ltd.",
-          company_url: "https://www.delhivery.com/",
-          logo_path: "delhivery_logo.png",
-          duration: "May 2019 - Sept 2019",
-          location: "Gurgaon, Haryana",
-          description:
-            "I have worked on project of predicting freight rates based on previous data. There were two objectives: (1) To build a forecasting engine to predict daily freight rates. (2) To embed feature in the model which can explain the seasonal major changes in freight rate based on regions and locations. I have closely worked with deep learning models in combination with statistical methods to create solution for this. At the end of internship, I had created model deployed on AWS EC2 with the use of Kafka stream jobs, ElasticSearch and PostgreSQL.",
-          color: "#ee3c26",
-        },
-        {
-          title: "Data Science Intern",
-          company: "Intel Indexer LLC",
-          company_url:
-            "https://opencorporates.com/companies/us_dc/EXTUID_4170286",
-          logo_path: "intel_logo.jpg",
-          duration: "Nov 2018 - Dec 2018",
-          location: "Work From Home",
-          description:
-            "This is financial Solution Company. I have made Supervised Learning model for the company which can perform time series analysis on Stock price data for 32 companies. I have built LSTM Neural Networks Model and trained the data of 32 companies for last 2 years. This model is also used for forecasting.",
-          color: "#0071C5",
-        },
-		*/
       ],
     },
     {
       title: "Volunteerships",
       experiences: [
-        /*
-        {
-          title: "Google Explore ML Facilitator",
-          company: "Google",
-          company_url: "https://about.google/",
-          logo_path: "google_logo.png",
-          duration: "June 2019 - April 2020",
-          location: "Hyderabad, Telangana",
-          description:
-            "Explore Machine Learning (ML) is a Google-sponsored program for university students to get started with Machine Learning. The curriculum offers 3 tracks of ML Content (Beginner, Intermediate, Advanced) and relies on university student facilitators to train other students on campus and to build opensource projects under this program.",
-          color: "#4285F4",
-        },
-        {
-          title: "Microsoft Student Partner",
-          company: "Microsoft",
-          company_url: "https://www.microsoft.com/",
-          logo_path: "microsoft_logo.png",
-          duration: "Aug 2019 - May 2020",
-          location: "Hyderabad, Telangana",
-          description:
-            "Microsoft Student Partner is a program for university students to lead the awareness and use of Cloud especially Azure tools in the development of their projects and startups. Under this program, I have organised hands on workshops and seminars to teach Cloud Computing concepts to students.",
-          color: "#D83B01",
-        },
-        {
-          title: "Mozilla Campus Captain",
-          company: "Mozilla",
-          company_url: "https://www.mozilla.org/",
-          logo_path: "mozilla_logo.png",
-          duration: "Oct 2019 - May 2020",
-          location: "Kurnool, Andhra Pradesh",
-          description:
-            "My responsibility for this program was to create opensource environment in college and in the city. We have organised multiple hackathons on the problems collected by ordinary people from Kurnool city. We have build opensource community of our own college. The community is available at dsc_iiitdmk on github.",
-          color: "#000000",
-        },
-        {
-          title: "Developer Students Club Member",
-          company: "DSC IIITDM Kurnool",
-          company_url:
-            "https://www.linkedin.com/company/developer-students-club-iiitdm-kurnool",
-          logo_path: "dsc_logo.png",
-          duration: "Jan 2018 - May 2020",
-          location: "Kurnool, Andhra Pradesh",
-          description:
-            "We have well established developer club in college which is directly associated with Google Developers. We have developed many interdisciplinary projects under the membership of this club. We have organised workshops and activities on Android Application Development, Flutter and React JS.",
-          color: "#0C9D58",
-        },
-		*/
         {
           title: "Developer Program Member",
           company: "Github",
@@ -751,6 +534,7 @@ const experience = {
           location: "Work From Home",
           description:
             "I am actively contributing to many opensource projects. These contributions include bug fixes, feature requests and formulating proper documentation for project.",
+          features: [],
           color: "#181717",
         },
       ],
@@ -762,7 +546,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure. Stil trying to gain experience by trying my hands on different projects. Most of these are academic projects with some personal projects in between.",
+    "My projects makes use of vast variety of latest technology tools. My best experience is to create Full Stack projects and deploy them to web applications using cloud infrastructure. Stil trying to gain experience by trying my hands on different projects.",
   avatar_image_path: "projects_image.svg",
 };
 
