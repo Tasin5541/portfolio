@@ -10,26 +10,18 @@ class OrganizationList extends Component {
         <ul className="dev-icons-orgs">
           {this.props.logos.map((logo) => {
             return (
-              <OverlayTrigger
-                key={logo["login"]}
-                placement={"top"}
-                style={{ marginBottom: "5px" }}
-                overlay={
-                  <Tooltip id={`tooltip-top`}>
-                    <strong>{logo["login"]}</strong>
-                  </Tooltip>
-                }
-              >
-                <li className="organizations-inline" name={logo["login"]}>
-                  <Fade bottom duration={2000} distance="40px">
+              <li className="organizations-inline" name={logo["login"]}>
+                <Fade bottom duration={2000} distance="40px">
+                  <div className="organizations-flex">
                     <img
                       className="organizations-img"
                       src={logo["avatarUrl"]}
                       alt={logo["login"]}
                     />
-                  </Fade>
-                </li>
-              </OverlayTrigger>
+                    <span className="organizations-name">@{logo["login"]}</span>
+                  </div>
+                </Fade>
+              </li>
             );
           })}
         </ul>
